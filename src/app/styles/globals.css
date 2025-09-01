@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin '../../hero.ts';
+
+body{
+}
+
+:root {
+  --background-primary: #FEF6DD;
+  --background-primary-100: #000;
+  --text-primary: #000;
+  --heading: #9D8640;
+  --border-primary: #B7A261;
+  --info-text: #000;
+  --card-text:  #685D5D;
+  --nav: #FEF6DD;
+  --nav-active: #B7A261;
+  --resume-button: #E0CE93;
+  --shadow: #F8DF91;
+  --input-border: #9D8640;
+  --contact-bg: #F9F6EA;
+  --active-icon: #fff;
+}
+[data-theme="light"] {
+  --background-primary: #FEF6DD;
+  --background-primary-100: #fff;
+  --text-primary: #000;
+  --heading: #9D8640;
+  --border-primary: #B7A261;
+  --info-text: #000;
+  --card-text:  #685D5D;
+  --nav: #FEF6DD;
+  --nav-active: #B7A261;
+  --resume-button: #E0CE93;
+  --shadow: #F8DF91;
+  --input-border: #9D8640;
+  --contact-bg: #F9F6EA;
+  --project-bg: #F9F6EA;
+  --active-icon: #fff;
+  --submit-button:#fff;
+}
+[data-theme="dark"] {
+  --background-primary: #131312;
+  --background-primary-100: #000;
+  --text-primary: #fff;
+  --heading: #7F6F3E;
+  --border-primary: #4B3D10;
+  --info-text: #CCC0C0;
+  --card-text: #D1D1CD;
+  --nav: #3B3729;
+  --nav-active: #B7A261;
+  --resume-button: #625839;
+  --shadow: #EFE0B2;
+  --input-border: #9D8640;
+  --contact-bg: #3B3729;
+  --project-bg: #403D32;
+  --active-icon: #A89D9D;
+  --submit-button:#000;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background-primary) !important;
+}

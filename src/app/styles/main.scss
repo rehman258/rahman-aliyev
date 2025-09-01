@@ -1,0 +1,12 @@
+@use "src/app/(pages)/about/scss/about.scss";
+@use "src/app/(pages)/experience/scss/experience.scss";
+@use "src/app/(pages)/projects/scss/projects.scss";
+@use "src/app/(pages)/skills/scss/skills.scss";
+@use "src/app/(pages)/contact/scss/contact.scss";
+@use 'src/app/styles/common.scss';
+
+.page-content-view{
+  background-color: var(--background-primary-100);
+  border: 3px solid var(--border-primary);
+  border-radius: 13px;
+}

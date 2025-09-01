@@ -1,0 +1,51 @@
+{
+  "HEADER": {
+    "logo": "Frontend Developer"
+  },
+  "PROFILE_CARD": {
+    "profession":"Frontend Developer",
+    "view_resume":"View Resume"
+  },
+  "NAV": {
+    "home": "Home",
+    "experience":"Experience",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "PROFIL_PANEL": {
+    "profession": "Frontend Developer",
+    "view_resume": "View Resume"
+  },
+  "ABOUT": {
+    "title": "About Me",
+    "about1": "I am a versatile frontend engineer with 4+ years of experience transforming ambitious ideas into powerful web experiences. Currently at MPAY CJSC, I architect sophisticated applications using Vue.js, Next.js, and Vuetify, while mastering an extensive toolkit—from React.js and TypeScript to jQuery, Bootstrap, MUI, HeroUI, Tailwind CSS and advanced state management with Redux, ReduxToolkit and Vuex.",
+    "about2": "My career highlights include revolutionizing a legacy hospital system with React.js, achieving exponential efficiency gains, and successfully integrating the Bank Court system with Azerbaijan's Ministry of Justice—proving my ability to deliver mission-critical solutions. I've built everything from intelligent web scraping bots that captured vital business intelligence to robust appointment systems that transformed user satisfaction metrics.",
+    "what_i_do": "What I Do"
+  },
+  "EXPERIENCE": {
+    "title": "Experience",
+    "education": "Education",
+    "description": "My professional journey has been marked by a series of impactful roles and projects.",
+    "experience": ""
+  },
+  "PROJECTS": {
+    "title": "Projects",
+    "portfolio": "Portfolio",
+    "project1": "Project 1",
+    "see_more": "See More"
+  },
+  "SKILLS": {
+    "skills": "Skills",
+    "tools": "Tools",
+    "frameworks": "Frameworks"
+  },
+  "CONTACT": {
+    "title": "Contact Me",
+    "email": "Email ",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Submit"
+  }
+}
