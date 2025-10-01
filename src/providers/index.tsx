@@ -1,6 +1,5 @@
 "use client";
 
-import { HeroUIProvider } from "@heroui/react";
 import { ReactNode } from "react";
 type Props = {
   children: ReactNode;
@@ -8,6 +7,6 @@ type Props = {
 export default function LocaleLayout({ children }: Props) {
 
   return (
-    <HeroUIProvider>{children}</HeroUIProvider>
+    <>{children}</>
   );
 }

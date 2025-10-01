@@ -18,6 +18,9 @@
     "profession": "Frontend Developer",
     "view_resume": "View Resume"
   },
+  "HOME": {
+    "nothing_to_see": " There is nothing to see here."
+  },
   "ABOUT": {
     "title": "About Me",
     "about1": "I am a versatile frontend engineer with 4+ years of experience transforming ambitious ideas into powerful web experiences. Currently at MPAY CJSC, I architect sophisticated applications using Vue.js, Next.js, and Vuetify, while mastering an extensive toolkit—from React.js and TypeScript to jQuery, Bootstrap, MUI, HeroUI, Tailwind CSS and advanced state management with Redux, ReduxToolkit and Vuex.",

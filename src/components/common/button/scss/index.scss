@@ -1,0 +1,11 @@
+.button{
+  padding: 6px 16px;
+  background-color: var(--theme-900);
+  color: var(--theme-50);
+  transition: all .5s ease;
+  border-radius: 12px;
+  font-family: Inter;
+}
+.button:hover{
+  background-color: var(--theme-700);
+}

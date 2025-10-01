@@ -1,62 +1,75 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@plugin '../../hero.ts';
 
 body{
+  font-family: "Inter";
 }
 
 :root {
-  --background-primary: #FEF6DD;
-  --background-primary-100: #000;
-  --text-primary: #000;
-  --heading: #9D8640;
-  --border-primary: #B7A261;
-  --info-text: #000;
-  --card-text:  #685D5D;
-  --nav: #FEF6DD;
-  --nav-active: #B7A261;
-  --resume-button: #E0CE93;
-  --shadow: #F8DF91;
-  --input-border: #9D8640;
-  --contact-bg: #F9F6EA;
-  --active-icon: #fff;
+  --theme-default:#ffffff;
+  --theme-50:#f9fafb;
+  --theme-100:#f3f4f6;
+  --theme-200:#f3f4f6;
+  --theme-300:#d1d5db;
+  --theme-400:#9ca3af;
+  --theme-500:#6b7280;
+  --theme-600:#4b5563;
+  --theme-700:#374151;
+  --theme-800:#1f2937;
+  --theme-900:#111827;
+  --theme-950:#030712;
+  --theme-emrald:#10b981;
 }
+
 [data-theme="light"] {
-  --background-primary: #FEF6DD;
-  --background-primary-100: #fff;
-  --text-primary: #000;
-  --heading: #9D8640;
-  --border-primary: #B7A261;
-  --info-text: #000;
-  --card-text:  #685D5D;
-  --nav: #FEF6DD;
-  --nav-active: #B7A261;
-  --resume-button: #E0CE93;
-  --shadow: #F8DF91;
-  --input-border: #9D8640;
-  --contact-bg: #F9F6EA;
-  --project-bg: #F9F6EA;
-  --active-icon: #fff;
-  --submit-button:#fff;
+  --theme-default:#ffffff;
+  --theme-50:#f9fafb;
+  --theme-100:#f3f4f6;
+  --theme-200:#f3f4f6;
+  --theme-300:#d1d5db;
+  --theme-400:#9ca3af;
+  --theme-500:#6b7280;
+  --theme-600:#4b5563;
+  --theme-700:#374151;
+  --theme-800:#1f2937;
+  --theme-900:#111827;
+  --theme-950:#030712;
+
 }
 [data-theme="dark"] {
-  --background-primary: #131312;
-  --background-primary-100: #000;
-  --text-primary: #fff;
-  --heading: #7F6F3E;
-  --border-primary: #4B3D10;
-  --info-text: #CCC0C0;
-  --card-text: #D1D1CD;
-  --nav: #3B3729;
-  --nav-active: #B7A261;
-  --resume-button: #625839;
-  --shadow: #EFE0B2;
-  --input-border: #9D8640;
-  --contact-bg: #3B3729;
-  --project-bg: #403D32;
-  --active-icon: #A89D9D;
-  --submit-button:#000;
+  --theme-default: #030712;
+  --theme-50: #111827;
+  --theme-100: #1f2937;
+  --theme-200: #374151;
+  --theme-300: #4b5563;
+  --theme-400: #6b7280;
+  --theme-500: #9ca3af;
+  --theme-600: #d1d5db;
+  --theme-700: #f3f4f6;
+  --theme-800: #f3f4f6;
+  --theme-900: #f9fafb;
+  --theme-950: #ffffff;
+}
+
+.shadow-light-2xl{
+  box-shadow: 0 25px 25px 0 #00000026;
+}
+.shadow-light-lg{
+  box-shadow: 0 4px 3px 0 #0000001A, 0 10px 8px 0 #0000000A;
+}
+.shadow-light-md{
+  box-shadow: 0 4px 3px 0 #00000012, 0 2px 2px 0 #0000000F;
+}
+
+.shadow-dark-2xl{
+  box-shadow: 0 25px 25px 0 #FFFFFF26;
+}
+.shadow-dark-lg{
+  box-shadow: 0 4px 3px 0 #FFFFFF1A, 0 10px 8px 0 #FFFFFF0A;
+}
+.shadow-dark-md{
+  box-shadow: 0 4px 3px 0 #FFFFFF12, 0 2px 2px 0 #FFFFFF0F;
 }
 
 body {
