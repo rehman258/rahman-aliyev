@@ -1,5 +1,11 @@
 @use "src/styles/typography/index.scss";
 
+body{
+  background-color: var(--theme-default);
+}
+*{
+  font-family: Inter;
+}
 .page-content-view{
   background-color: var(--background-primary-100);
   border: 3px solid var(--border-primary);

@@ -1,25 +1,20 @@
 {
   "HEADER": {
-    "logo": "Frontend Developer"
+    "logo": "Frontend Developer",
+    "NAV": {
+      "home": "Home",
+      "experience":"Experience",
+      "about": "About",
+      "projects": "Projects",
+      "skills": "Skills",
+      "contact": "Contact"
+    }
   },
-  "PROFILE_CARD": {
-    "profession":"Frontend Developer",
-    "view_resume":"View Resume"
-  },
-  "NAV": {
-    "home": "Home",
-    "experience":"Experience",
-    "about": "About",
-    "projects": "Projects",
-    "skills": "Skills",
-    "contact": "Contact"
-  },
-  "PROFIL_PANEL": {
-    "profession": "Frontend Developer",
-    "view_resume": "View Resume"
-  },
-  "HOME": {
-    "nothing_to_see": " There is nothing to see here."
+
+  "BANNER": {
+    "hi_Iam": "Hi, I'am",
+    "address": "Azerbaijan, Baku",
+    "available": "Available for new projects"
   },
   "ABOUT": {
     "title": "About Me",

@@ -4,11 +4,10 @@ import { ReactNode } from "react";
 import Providers from "../providers";
 import "./styles/globals.css";
 import "./styles/main.scss";
-import { Sigmar_One } from "next/font/google";
+import { Inter } from "next/font/google";
 
-const sigmar = Sigmar_One({
+const inter = Inter({
   subsets: ["latin"],
-  weight: "400"
 });
 
 type Props = {
@@ -20,7 +19,7 @@ export default async function LocaleLayout({ children }: Props) {
 
   return (
     <html
-      className={sigmar.className}
+      className={inter.className}
       lang={locale}
     >
       <head>
