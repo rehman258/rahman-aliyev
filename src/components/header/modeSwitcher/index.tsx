@@ -1,17 +1,14 @@
 "use client";
 
-import React,{ useState } from "react";
+import React from "react";
 import Image from "next/image";
-
+import useMood from "@/src/hooks/useMod";
 export default function ModeSwticher() {
-  const [mode, setMode] = useState<string | null>("light");
+  const { mode, changeMode } = useMood();
   const changeModeHandler = ()=>{
-    const currentMode = document.body.getAttribute("data-theme");
-    setMode((prevState)=>{
-      document.body.setAttribute("data-theme", `${currentMode === "light" ? "dark" : "light"}`);
-      if (prevState === "light") return "dark";
-      return "light";
-    });
+    changeMode();
+    if (mode === "light") return "dark";
+    return "light";
   };
   
   return (

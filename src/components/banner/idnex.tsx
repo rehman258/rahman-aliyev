@@ -1,11 +1,16 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import LocationMark from "@/public/assets/iconComponents/LocationMark";
+import Link from "next/link";
+import useMod from "@/src/hooks/useMod";
 export default function Banner() {
+  const { mode } = useMod();
   return (
     <section className="px-[70px] py-[96px] bg-theme-light-default dark:bg-theme-dark-default">
-      <div className="banner-container px-[2rem]">
-        <div className="banner-conent">
+      <div className="banner-container px-[2rem] flex justify-between">
+        <div className="banner-conent w-[66.666666%]">
           <h1 className="heading-1-desktop-bold mb-[0.5rem]">
             {"Hi, I'am Rahman 👋"}
           </h1>
@@ -20,7 +25,7 @@ export default function Banner() {
               `
             }
           </p>
-          <div>
+          <div className="mb-[3rem]">
             <p className="body-2-all-screen flex gap-[8px] items-center mb-[0.5rem]">
               <LocationMark/>
               {
@@ -39,6 +44,29 @@ export default function Banner() {
               }
             </p>
           </div>
+          <div>
+            <ul>
+              <li>
+                <Link href={"/"}>
+                  <Image
+                    alt="github icon"
+                    height={24}
+                    src={`/icons/${mode}Github.svg`}
+                    width={24}
+                  />
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="banner-image w-[33.333333%] flex justify-center">
+          <Image
+            alt="developer image"
+            className="rounded-xl shadow-black shadow-2xl"
+            height={350}
+            src={"/my-image.jpeg"}
+            width={300}
+          />
         </div>
       </div>
     </section>
