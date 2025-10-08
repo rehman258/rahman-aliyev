@@ -1,6 +1,6 @@
 import React from "react";
 import "./scss/index.scss";
-import { IButton } from "@/types/components";
+import { IButton } from "@/src/types/components";
 export default function Button({
   text,
 }:IButton) {
