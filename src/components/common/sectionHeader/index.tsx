@@ -10,7 +10,7 @@ export default function index({ title, desc }:{title:string, desc?:string}) {
       </h5>
       {
         desc &&
-        <p className={`3rem text-theme-light-600 dark:text-theme-dark-600`}>
+        <p className={`mb-[3rem] text-theme-light-600 dark:text-theme-dark-600`}>
           {desc}
         </p>
       }

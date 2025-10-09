@@ -7,6 +7,7 @@ import About from "@/src/components/about";
 import Skills from "@/src/components/skills";
 import Experience from "@/src/components/experience";
 import Projects from "@/src/components/projects";
+import Contact from "@/src/components/contact";
 export default function SinglePage() {
   return (
     <>
@@ -17,6 +18,7 @@ export default function SinglePage() {
         <Skills/>
         <Experience/>
         <Projects/>
+        <Contact/>
       </main>
       <Footer/>
     </>
