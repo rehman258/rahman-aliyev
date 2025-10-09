@@ -2,6 +2,7 @@ import React from "react";
 import SectionWrapper from "@/src/components/common/sectionWrapper";
 import SectionHeader from "@/src/components/common/sectionHeader";
 import Image from "next/image";
+import "./scss/index.scss";
 export default function Projects() {
   return (
     <SectionWrapper>
@@ -9,7 +10,7 @@ export default function Projects() {
         desc="Some of the noteworthy projects I have built:"
         title="Projects"
       />
-      <ul className="w-[1152px] mx-auto">
+      <ul className="projects-list w-[1152px] mx-auto">
         <li
           className="flex shadow-2xl dark:shadow-[color:--theme-100]
         rounded-2xl overflow-hidden">

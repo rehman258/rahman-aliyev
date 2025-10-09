@@ -13,22 +13,61 @@ export default function Contact() {
       />
       <div className="section-content flex flex-col items-center justify-center">
         <div className="contact-details flex flex-col mb-[3rem]">
-          <p className="contact-dtails__mail">
-            {"rehman1998eliyev@gmail.com"}
-          </p>
-          <p className="contact-dtails__phone">
-            {"+994 50 991 06 74"}
-          </p>
+          <div className="flex gap-[20px]">
+            <a
+              className="contact-dtails__mail flex gap-[20px]
+            mb-[1rem] text-theme-light-900 dark:text-theme-dark-900 text-[2.25rem]"
+              href="mailto:rehman1998eliyev@gmail.com">
+              <Image 
+                alt="developer mail icon"
+                height={32}
+                src={"/icons/lightEnvelope.svg"}
+                width={32}
+              />
+              {"rehman1998eliyev@gmail.com"}
+            </a>
+            <Image
+              alt="copy icon"
+              height={32}
+              src={"/icons/lightCopy.svg"}
+              width={32}
+            />
+          </div>
+          <div className="flex gap-[20px]">
+            <a
+              className="contact-dtails__phone flex gap-[20px]
+            text-theme-light-900 dark:text-theme-dark-900 text-[2.25rem]"
+              href="tel:+994509910674">
+              <Image 
+                alt="developer phone icon"
+                height={32}
+                src={"/icons/lightPhone.svg"}
+                width={32}
+              />
+              {"+994 50 991 06 74"}
+              
+            </a>
+            <Image
+              alt="copy icon"
+              height={32}
+              src={"/icons/lightCopy.svg"}
+              width={32}
+            />
+          </div>
         </div>
-      
+        <p className="mb-[0.5rem] text-theme-light-600 dark:text-theme-dark-600">
+          {"You may also find me on these platforms!"}
+        </p>
         <ul className="social-links">
           <li className="social-links__item">
-            <Image
-              alt="social link image"
-              height={24}
-              src={"/icons/lightGithub.svg"}
-              width={24}
-            />
+            <a href="">
+              <Image
+                alt="social link image"
+                height={24}
+                src={"/icons/lightGithub.svg"}
+                width={24}
+              />
+            </a>
           </li>
         </ul>
       </div>

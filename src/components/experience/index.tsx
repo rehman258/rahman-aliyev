@@ -2,6 +2,7 @@ import React from "react";
 import SectionWrapper from "@/src/components/common/sectionWrapper";
 import SectionHeader from "@/src/components/common/sectionHeader";
 import Image from "next/image";
+import "./scss/index.scss";
 
 export default function Experience() {
   return (

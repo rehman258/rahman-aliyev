@@ -5,10 +5,11 @@ import Image from "next/image";
 import LocationMark from "@/public/assets/iconComponents/LocationMark";
 import Link from "next/link";
 import useMod from "@/src/hooks/useMod";
+import SectionWrapper from "@/src/components/common/sectionWrapper";
 export default function Banner() {
   const { mode } = useMod();
   return (
-    <section className="px-[70px] py-[96px] bg-theme-light-default dark:bg-theme-dark-default">
+    <SectionWrapper className="px-[70px] py-[96px] bg-theme-light-default dark:bg-theme-dark-default">
       <div className="banner-container px-[2rem] flex justify-between">
         <div className="banner-conent w-[66.666666%]">
           <h1 className="heading-1-desktop-bold mb-[0.5rem]">
@@ -69,6 +70,6 @@ export default function Banner() {
           />
         </div>
       </div>
-    </section>
+    </SectionWrapper>
   );
 }

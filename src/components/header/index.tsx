@@ -1,9 +1,11 @@
 import React from "react";
 import ModeSwticher from "./modeSwitcher";
 import DownloadResume from "./downloadResume";
+import "./scss/index.scss";
+
 export default function Header() {
   return (
-    <header className=" py-[16px] px-[80px] ">
+    <header className=" py-[16px] px-[80px] md:block hidden">
       <div className="header-container flex justify-between items-center px-[2rem]">
         <div className="logo text-theme-dark-default dark:text-theme-light-default">
           {"<>Rahman Aliyev</>"}
