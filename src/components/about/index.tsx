@@ -11,8 +11,8 @@ export default function About() {
       <SectionHeader
         title="About me"
       />
-      <div className="flex">
-        <div className="w-[50%] flex justify-center align-center mt-[5rem]">
+      <div className="sm:flex">
+        <div className="sm:w-[50%] w-[100%] mb-[2rem] flex justify-center align-center sm:mx-auto md:mt-[5rem]">
           <Image
             alt="developer image"
             className="rounded-2xl self-center"
@@ -21,8 +21,10 @@ export default function About() {
             width={350}
           />
         </div>
-        <div className="w-[50%]">
-          <h5 className="text-[3rem] font-medium text-theme-light-900 dark:text-theme-dark-900">
+        <div className="sm:w-[50%] w-[100%]">
+          <h5
+            className="text-[3rem] mb-[1.5rem] heading-3-tablet_mobile-bold 
+          text-theme-light-900 dark:text-theme-dark-900">
             {"About me"}
           </h5>
           <p className="text-theme-light-600 dark:text-theme-dark-600">

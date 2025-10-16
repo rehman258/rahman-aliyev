@@ -5,9 +5,7 @@
 }
 
 @media (max-width: 972px) {
-  .experience-list{
-    width: 100% !important;
-  }
+
 }
 
 @media (max-width: 919px) {
@@ -17,47 +15,16 @@
 }
 
 @media (max-width: 820px) {
-   .experience-list{
-    width: 100% !important;
-     &__item{
-      width: 100% !important;
-    }
-  }
+
 
 }
 
 @media (max-width: 675px) {
-  .experience-list{
-     &__item{
-      gap: 20px;
-      .job-details{
-        
-        h5{
-          font-size: 18px;
-        }
-        ul li{
-          font-size: 16px;
-        }
-        .attended-date {
-          font-size: 16px;
-        }
-      }
-      img{
-        width: 150px !important;
-        height: 200px;
-      }
-      width: 100% !important;
-    }
-  }
+  
 }
 
 @media (max-width: 550px) {
-  .experience-list{
-     &__item{
-      max-width: 414px !important;
-      flex-direction: column !important;
-     }
-  }
+  
 }
 
 @media (max-width: 414px) {

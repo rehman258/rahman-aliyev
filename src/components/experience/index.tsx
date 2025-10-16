@@ -13,36 +13,39 @@ export default function Experience() {
         desc="Here is a quick summary of my most recent experiences:"
         title="Experience"
       />
-      <ul className="experience-list w-[896px] mx-auto flex flex-col items-center">
+      <ul className="experience-list  mx-auto flex flex-col items-center">
         <li
-          className="experience-list__item flex gap-[3rem] flex justify-between
-        bg-theme-light-100 dark:bg-theme-dark-100 p-[2rem] rounded-md shadow-2xl">
+          className="experience-list__item w-[100%] flex flex-col gap-[3rem] flex justify-between
+        bg-theme-light-100 dark:bg-theme-dark-100 p-[2rem] rounded-md 
+        shadow-[0px_0px_22px_-8px_rgba(0,0,0,0.5)]">
           <Image
             alt="work place image"
-            height={285}
+            height={30}
             src={"/my-image.jpeg"}
-            width={210}
+            width={125}
           />
           <div className="job-details">
-            <h5 className="font-semibold text-[20px] text-theme-light-900 dark:text-theme-dark-900 mb-[1rem]">
+            <h5
+              className="subtitle-tablet_mobile-semibold 
+            text-theme-light-900 dark:text-theme-dark-900 mb-[1rem]">
               {"Sr. Frontend Developer"}
             </h5>
             <ul>
-              <li className="text-theme-light-600 leading-[24px] dark:text-theme-dark-600">
+              <li className="body-2-all-screen text-theme-light-600 dark:text-theme-dark-600">
                 {"lorem ipsum dolor sit amet"}
               </li>
-              <li className="text-theme-light-600 leading-[24px] dark:text-theme-dark-600">
+              <li className="body-2-all-screen text-theme-light-600 dark:text-theme-dark-600">
                 {"lorem ipsum dolor sit amet"}
               </li>
-              <li className="text-theme-light-600 leading-[24px] dark:text-theme-dark-600">
+              <li className="body-2-all-screen text-theme-light-600 dark:text-theme-dark-600">
                 {"lorem ipsum dolor sit amet"}
               </li>
-              <li className="text-theme-light-600 leading-[24px] dark:text-theme-dark-600">
+              <li className="body-2-all-screen text-theme-light-600 dark:text-theme-dark-600">
                 {"lorem ipsum dolor sit amet"}
               </li>
             </ul>
           </div>
-          <div className="attended-date text-theme-light-700 dark:text-theme-dark-700">
+          <div className="attended-date text-theme-light-700 dark:text-theme-dark-700 body-2-all-screen">
             {"Nov 2021 - Present"}
           </div>
         </li>

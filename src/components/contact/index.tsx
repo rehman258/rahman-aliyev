@@ -13,45 +13,45 @@ export default function Contact() {
       />
       <div className="section-content flex flex-col items-center justify-center">
         <div className="contact-details flex flex-col mb-[3rem]">
-          <div className="flex gap-[20px]">
+          <div className="flex justify-center gap-[16px]">
             <a
-              className="contact-dtails__mail flex gap-[20px]
-            mb-[1rem] text-theme-light-900 dark:text-theme-dark-900 text-[2.25rem]"
+              className="contact-dtails__mail flex gap-[20px] font-bold
+            mb-[1rem] text-theme-light-900 dark:text-theme-dark-900 text-[1rem]"
               href="mailto:rehman1998eliyev@gmail.com">
               <Image 
                 alt="developer mail icon"
-                height={32}
+                height={24}
                 src={"/icons/lightEnvelope.svg"}
-                width={32}
+                width={24}
               />
               {"rehman1998eliyev@gmail.com"}
             </a>
             <Image
               alt="copy icon"
-              height={32}
+              height={24}
               src={"/icons/lightCopy.svg"}
-              width={32}
+              width={24}
             />
           </div>
-          <div className="flex gap-[20px]">
+          <div className="flex justify-center gap-[16px]">
             <a
-              className="contact-dtails__phone flex gap-[20px]
-            text-theme-light-900 dark:text-theme-dark-900 text-[2.25rem]"
+              className="contact-dtails__phone flex gap-[20px] font-bold
+            text-theme-light-900 dark:text-theme-dark-900 text-[1rem]"
               href="tel:+994509910674">
               <Image 
                 alt="developer phone icon"
-                height={32}
+                height={24}
                 src={"/icons/lightPhone.svg"}
-                width={32}
+                width={24}
               />
               {"+994 50 991 06 74"}
               
             </a>
             <Image
               alt="copy icon"
-              height={32}
+              height={24}
               src={"/icons/lightCopy.svg"}
-              width={32}
+              width={24}
             />
           </div>
         </div>

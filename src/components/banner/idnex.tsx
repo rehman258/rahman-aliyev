@@ -9,10 +9,10 @@ import SectionWrapper from "@/src/components/common/sectionWrapper";
 export default function Banner() {
   const { mode } = useMod();
   return (
-    <SectionWrapper className="px-[70px] py-[96px] bg-theme-light-default dark:bg-theme-dark-default">
-      <div className="banner-container px-[2rem] flex justify-between">
-        <div className="banner-conent w-[66.666666%]">
-          <h1 className="heading-1-desktop-bold mb-[0.5rem]">
+    <SectionWrapper className="bg-theme-light-default dark:bg-theme-dark-default">
+      <div className="banner-container flex flex-col justify-between">
+        <div className="banner-conent w-[100%] mb-[2rem]">
+          <h1 className="heading-1-mobile-semibold mb-[0.5rem]">
             {"Hi, I'am Rahman 👋"}
           </h1>
           <p className="body-2-all-screen mb-[3rem]">
@@ -60,7 +60,7 @@ export default function Banner() {
             </ul>
           </div>
         </div>
-        <div className="banner-image w-[33.333333%] flex justify-center">
+        <div className="banner-image w-[100%] flex justify-center">
           <Image
             alt="developer image"
             className="rounded-xl shadow-black shadow-2xl"
