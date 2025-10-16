@@ -13,8 +13,10 @@ export default function Projects() {
       <ul className="projects-list w-[1152px] mx-auto">
         <li
           className="flex flex-col shadow-[0px_0px_22px_-8px_rgba(0,0,0,0.5)] dark:shadow-[color:--theme-100]
-        rounded-2xl overflow-hidden">
-          <div className="p-[2rem] w-[100%] flex bg-theme-light-50 dark:bg-theme-dark-50">
+        rounded-2xl overflow-hidden
+          md:flex-row
+        ">
+          <div className="p-[2rem] md:p-[3rem] w-[100%] flex bg-theme-light-50 dark:bg-theme-dark-50">
             <Image
               alt="project image"
               height={384}
@@ -23,7 +25,7 @@ export default function Projects() {
             />
           </div>
           <div
-            className="p-[2rem] w-[100%] bg-theme-light-default 
+            className="p-[2rem] md:p-[3rem] w-[100%] bg-theme-light-default 
           dark:bg-theme-dark-default flex flex-col gap-[1.5rem]">
             <h6
               className="project-item__title font-semibold 

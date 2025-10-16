@@ -12,7 +12,7 @@ export default function Skills() {
         title="Skills"
       />
       <ul className="flex flex-wrap section-list gap-y-[1rem]">
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -24,7 +24,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -36,7 +36,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -48,7 +48,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -60,7 +60,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -72,7 +72,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -84,7 +84,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -96,7 +96,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -108,7 +108,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -120,7 +120,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -132,7 +132,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -144,7 +144,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -156,7 +156,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -168,7 +168,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -180,7 +180,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -192,7 +192,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -204,7 +204,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -216,7 +216,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -228,7 +228,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -240,7 +240,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"
@@ -252,7 +252,7 @@ export default function Skills() {
             {"Javascript"}
           </p>
         </li>
-        <li className="flex flex-col items-center justify-center w-1/3">
+        <li className="flex flex-col items-center justify-center w-1/3 sm:w-1/5 lg:w-1/6">
           <Image
             alt="developer skill"
             className="mb-[0.5rem]"

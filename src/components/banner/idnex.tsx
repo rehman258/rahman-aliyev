@@ -10,8 +10,8 @@ export default function Banner() {
   const { mode } = useMod();
   return (
     <SectionWrapper className="bg-theme-light-default dark:bg-theme-dark-default">
-      <div className="banner-container flex flex-col justify-between">
-        <div className="banner-conent w-[100%] mb-[2rem]">
+      <div className="banner-container flex flex-col md:flex-row justify-between">
+        <div className="banner-conent w-[100%] md:w-[66.66666%] mb-[2rem]">
           <h1 className="heading-1-mobile-semibold mb-[0.5rem]">
             {"Hi, I'am Rahman 👋"}
           </h1>
@@ -60,7 +60,7 @@ export default function Banner() {
             </ul>
           </div>
         </div>
-        <div className="banner-image w-[100%] flex justify-center">
+        <div className="banner-image w-[100%] md:w-[33.33333%] flex justify-center">
           <Image
             alt="developer image"
             className="rounded-xl shadow-black shadow-2xl"
