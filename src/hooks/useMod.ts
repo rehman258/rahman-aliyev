@@ -1,19 +1,14 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function useMod() {
   const [mode, setMode] = useState<string | null>("light");
-  let currentMode:string|null = "light";
   const changeMode = ()=>{
-    currentMode = document.body.getAttribute("data-theme");
+    const currentMode = document.body.getAttribute("data-theme");
+    setMode((prevMode)=>prevMode === "light" ? "dark" : "light");
     document.body.setAttribute("data-theme", `${currentMode === "light" ? "dark" : "light"}`);
   };
-
-  useEffect(()=>{
-    setMode(document.body.getAttribute("data-theme"));
-  },[currentMode]);
-
   return {
     mode,
     changeMode

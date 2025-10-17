@@ -5,10 +5,10 @@ import Image from "next/image";
 import useMood from "@/src/hooks/useMod";
 export default function ModeSwticher() {
   const { mode, changeMode } = useMood();
+
   const changeModeHandler = ()=>{
     changeMode();
-    if (mode === "light") return "dark";
-    return "light";
+    console.log(mode);
   };
   
   return (

@@ -16,7 +16,7 @@ export default function Projects() {
         rounded-2xl overflow-hidden
           md:flex-row
         ">
-          <div className="p-[2rem] md:p-[3rem] w-[100%] flex bg-theme-light-50 dark:bg-theme-dark-50">
+          <div className="p-[2rem] lg:p-[3rem] w-[100%] flex bg-theme-light-50 dark:bg-theme-dark-50">
             <Image
               alt="project image"
               height={384}

@@ -18,6 +18,7 @@ export default function Experience() {
           className="experience-list__item w-[100%] flex flex-col gap-[3rem] flex justify-between
         bg-theme-light-100 dark:bg-theme-dark-100 p-[2rem] rounded-md 
         shadow-[0px_0px_22px_-8px_rgba(0,0,0,0.5)]
+        sm:max-w-[350px]
         md:flex-row md:max-w-[896px]
         ">
           <Image

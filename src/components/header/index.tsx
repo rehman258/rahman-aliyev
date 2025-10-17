@@ -1,14 +1,19 @@
 import React from "react";
+import Image from "next/image";
 import ModeSwticher from "./modeSwitcher";
 import DownloadResume from "./downloadResume";
 import "./scss/index.scss";
 
 export default function Header() {
   return (
-    <header className=" py-[16px] px-[80px] md:block hidden">
-      <div className="header-container flex justify-between items-center px-[2rem]">
-        <div className="logo text-theme-dark-default dark:text-theme-light-default">
-          {"<>Rahman Aliyev</>"}
+    <header
+      className=" py-[16px] px-[1rem] lg:px-[5rem] sticky top-[0px] bg lg:relative 
+    bg-theme-light-default dark:bg-theme-dark-default opacity-[95%]">
+      <div className="header-container flex justify-between items-center lg:flex hidden">
+        <div
+          className="logo text-theme-dark-default dark:text-theme-light-default font-bold text-[1rem] 
+        lg:text-[1.125rem]">
+          {"<> Rahman Aliyev </>"}
         </div>
         <nav className="flex items-center">
           <ul className="flex gap-[24px] align-center">
@@ -25,6 +30,20 @@ export default function Header() {
             <DownloadResume/>
           </div>
         </nav>
+      </div>
+      <div className="header-container flex justify-between items-center lg:hidden flex">
+        <div className="flex align-center justify-between w-[100%]">
+          <div className="flex gap-[24px]">
+            <ModeSwticher/>
+            <DownloadResume/>
+          </div>
+          <Image
+            alt="hamburger menu icon for side bar control"
+            height={24}
+            src={"/icons/lightHamburger.svg"}
+            width={24}
+          />
+        </div>
       </div>
     </header>
   );
