@@ -1,9 +1,12 @@
+"use client";
+
 import React from "react";
+// import useMod from "@/src/hooks/useMod";
 import SectionWrapper from "@/src/components/common/sectionWrapper";
 import SectionHeader from "@/src/components/common/sectionHeader";
 import Image from "next/image";
 
-export default function Contact() {
+export default function Contact({ mode }:{mode:string}) {
   return (
     <SectionWrapper>
       <SectionHeader
@@ -21,7 +24,7 @@ export default function Contact() {
               <Image 
                 alt="developer mail icon"
                 height={24}
-                src={"/icons/lightEnvelope.svg"}
+                src={`/icons/${mode}Envelope.svg`}
                 width={24}
               />
               {"rehman1998eliyev@gmail.com"}
@@ -29,7 +32,7 @@ export default function Contact() {
             <Image
               alt="copy icon"
               height={24}
-              src={"/icons/lightCopy.svg"}
+              src={`/icons/${mode}Copy.svg`}
               width={24}
             />
           </div>
@@ -41,7 +44,7 @@ export default function Contact() {
               <Image 
                 alt="developer phone icon"
                 height={24}
-                src={"/icons/lightPhone.svg"}
+                src={`/icons/${mode}Phone.svg`}
                 width={24}
               />
               {"+994 50 991 06 74"}
@@ -50,7 +53,7 @@ export default function Contact() {
             <Image
               alt="copy icon"
               height={24}
-              src={"/icons/lightCopy.svg"}
+              src={`/icons/${mode}Copy.svg`}
               width={24}
             />
           </div>
@@ -64,7 +67,7 @@ export default function Contact() {
               <Image
                 alt="social link image"
                 height={24}
-                src={"/icons/lightGithub.svg"}
+                src={`/icons/${mode}github.svg`}
                 width={24}
               />
             </a>

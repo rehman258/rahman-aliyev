@@ -4,7 +4,7 @@ import ModeSwticher from "./modeSwitcher";
 import DownloadResume from "./downloadResume";
 import "./scss/index.scss";
 
-export default function Header() {
+export default function Header({ mode,changeMode }:{ mode: string; changeMode: () => void; }) {
   return (
     <header
       className=" py-[16px] px-[1rem] lg:px-[5rem] sticky top-[0px] bg lg:relative 
@@ -26,7 +26,9 @@ export default function Header() {
           </ul>
           <span className="h-[28px] bg-theme-dark-500 w-[1px] mx-[16px]"></span>
           <div className="flex align-center gap-[16px]">
-            <ModeSwticher/>
+            <ModeSwticher
+              changeMode={changeMode}
+              mode={mode}/>
             <DownloadResume/>
           </div>
         </nav>
@@ -34,7 +36,9 @@ export default function Header() {
       <div className="header-container flex justify-between items-center lg:hidden flex">
         <div className="flex align-center justify-between w-[100%]">
           <div className="flex gap-[24px]">
-            <ModeSwticher/>
+            <ModeSwticher
+              changeMode={changeMode}
+              mode={mode}/>
             <DownloadResume/>
           </div>
           <Image

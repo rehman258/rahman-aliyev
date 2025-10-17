@@ -2,15 +2,11 @@
 
 import React from "react";
 import Image from "next/image";
-import useMood from "@/src/hooks/useMod";
-export default function ModeSwticher() {
-  const { mode, changeMode } = useMood();
+export default function ModeSwticher({ mode,changeMode }:{mode:string, changeMode:()=>void}) {
 
   const changeModeHandler = ()=>{
     changeMode();
-    console.log(mode);
   };
-  
   return (
     <Image
       alt="template mode swticher"
