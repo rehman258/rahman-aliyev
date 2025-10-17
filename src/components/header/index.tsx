@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import ModeSwticher from "./modeSwitcher";
+import LanguageSwtitcher from "../common/languageSwitcher";
 import DownloadResume from "./downloadResume";
 import "./scss/index.scss";
 
@@ -41,12 +42,15 @@ export default function Header({ mode,changeMode }:{ mode: string; changeMode: (
               mode={mode}/>
             <DownloadResume/>
           </div>
-          <Image
-            alt="hamburger menu icon for side bar control"
-            height={24}
-            src={"/icons/lightHamburger.svg"}
-            width={24}
-          />
+          <div className="flex gap-[24px] items-center">
+            <LanguageSwtitcher/>
+            <Image
+              alt="hamburger menu icon for side bar control"
+              height={24}
+              src={`/icons/${mode}Hamburger.svg`}
+              width={24}
+            />
+          </div>
         </div>
       </div>
     </header>

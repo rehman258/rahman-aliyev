@@ -75,3 +75,6 @@ body{
 body *{
   font-family: "Inter";
 }
+hr{
+  height: 1px;
+}
