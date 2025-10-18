@@ -3,43 +3,55 @@ import Image from "next/image";
 // const flag = ({ name }:{name:string}) => import(`@/public/flags/${name}.svg`);
 
 export default function LanguageSwtitcher() {
+
+  interface ILang {
+    tag: string;
+    name: string;
+    path: string;
+    selected:boolean;
+  }
   // note will be added auto location herewhere site is opening
   const [isListOpen,setIsListOpen] = useState(false);
-  const [currCountry, setCurrCountry] = useState({
+  const [currCountry, setCurrCountry] = useState<ILang>({
     tag: "az",
     name: "azerbaijan",
     path: "azerbaijan",
-    default:true,
+    selected:true,
   });
 
-  const langs = [
+  const langs:ILang[] = [
     {
       tag: "az",
       name: "azerbaijan",
       path: "azerbaijan",
-      default:true,
+      selected:true,
     },
     {
       tag: "de",
       name: "deutschland",
       path: "deutschland",
-      default:false,
+      selected:false,
     },
     {
       tag: "en",
       name: "england",
       path: "england",
-      default:false,
+      selected:false,
     },
   ];
   const openListHandler=()=>{
     setIsListOpen(!isListOpen);
   };
 
+  const selectLangHandler = (langItem:ILang) => {
+    setIsListOpen(false);
+    setCurrCountry(langItem);
+  };
+
   return (
     <div className="relative">
       <div
-        className=" flex gap-[10] border border-theme-dark-700  px-[10px] py-[5px] rounded-lg"
+        className=" flex gap-[10] shadow-[0px_0px_50px_-5px_rgba(0,0,0,0.5)]  px-[10px] py-[5px] rounded-lg"
         onClick={openListHandler}>
         <Image
           alt=""
@@ -57,22 +69,22 @@ export default function LanguageSwtitcher() {
         />
       </div>
       <div
-        className={`w-[100%] flex flex-col gap-[10px] bg-theme-light-100 left-[0%] flex flex-col items-center 
-          border border-theme-dark-700  px-[10px] py-[5px] rounded-md border-t-0
+        className={`w-[100%] flex flex-col bg-theme-light-100 left-[0%] top-[120%] flex flex-col items-center 
+          shadow-[0px_0px_50px_-5px_rgba(0,0,0,0.5)]  rounded-md border-t-0 overflow-hidden
         transition absolute ${isListOpen?undefined:"hidden"}`}>
         {
-          langs.map((country)=>(
+          langs.map((langItem)=>(
             <div
-              onClick={()=>setIsListOpen(false)}
-              key={country.name}
-              className="flex">
+              onClick={()=>selectLangHandler(langItem)}
+              key={langItem.name}
+              className={`relative flex flex-col items-center px-[10px] py-[7.5px] justify-center w-[100%] ${langItem.tag === currCountry.tag ? "bg-theme-light-300" : undefined}`}>
               <Image
                 alt="counry flag"
                 height={25}
-                src={`/flags/${country.path}.svg`}
+                src={`/flags/${langItem.path}.svg`}
                 width={25}
               />
-              <hr className="divider" />
+              <hr className="absolute bottom-[0] w-[100%] border-theme-light-300" />
             </div>
           ))
         }
