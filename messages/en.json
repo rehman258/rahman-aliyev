@@ -14,13 +14,13 @@
 
   "BANNER": {
     "hi_Iam": "Hi, I'am Rahman 👋",
-    "desc": "I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.",
+    "desc": "I'm a frontend developer with 5+ years of experience turning complex problems into elegant solutions. From healthcare systems to payment platforms, I've built applications that handle thousands of daily users across diverse industries. Specializing in React and Next.js, I create fast, accessible interfaces that just work.",
     "address": "Azerbaijan, Baku",
     "available": "Available for new projects"
   },
   "ABOUT": {
     "title": "About Me",
-    "about1": "I am a versatile frontend engineer with 4+ years of experience transforming ambitious ideas into powerful web experiences. Currently at MPAY CJSC, I architect sophisticated applications using Vue.js, Next.js, and Vuetify, while mastering an extensive toolkit—from React.js and TypeScript to jQuery, Bootstrap, MUI, HeroUI, Tailwind CSS and advanced state management with Redux, ReduxToolkit and Vuex.",
+    "about1": "I am a versatile frontend engineer with 5+ years of experience transforming ambitious ideas into powerful web experiences. Currently at MPAY CJSC, I architect sophisticated applications using Vue.js, Next.js, and Vuetify, while mastering an extensive toolkit—from React.js and TypeScript to jQuery, Bootstrap, MUI, HeroUI, Tailwind CSS and advanced state management with Redux, ReduxToolkit and Vuex.",
     "about2": "My career highlights include revolutionizing a legacy hospital system with React.js, achieving exponential efficiency gains, and successfully integrating the Bank Court system with Azerbaijan's Ministry of Justice—proving my ability to deliver mission-critical solutions. I've built everything from intelligent web scraping bots that captured vital business intelligence to robust appointment systems that transformed user satisfaction metrics.",
     "what_i_do": "What I Do"
   },
