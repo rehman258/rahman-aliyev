@@ -6,31 +6,29 @@ import LocationMark from "@/public/assets/iconComponents/LocationMark";
 import Link from "next/link";
 import useMod from "@/src/hooks/useMod";
 import SectionWrapper from "@/src/components/common/sectionWrapper";
+import { useTranslations } from "next-intl";
 export default function Banner() {
+  const bannerT = useTranslations("BANNER");
   const { mode } = useMod();
   return (
     <SectionWrapper className="bg-theme-light-default dark:bg-theme-dark-default">
       <div className="banner-container flex flex-col md:flex-row justify-between">
         <div className="banner-conent w-[100%] md:w-[66.66666%] mb-[2rem]">
           <h1 className="heading-1-mobile-semibold mb-[0.5rem]">
-            {"Hi, I'am Rahman 👋"}
+            {
+              bannerT("hi_Iam")
+            }
           </h1>
           <p className="body-2-all-screen mb-[3rem]">
             {
-              `
-              I'm a full stack developer (React.js & Node.js) with a focus on creating 
-              (and occasionally designing) 
-              exceptional digital experiences that are fast, accessible, visually appealing, 
-              and responsive. Even though I have been creating web applications for over 7 years, 
-              I still love it as if it was something new.
-              `
+              bannerT("desc")
             }
           </p>
           <div className="mb-[3rem]">
             <p className="body-2-all-screen flex gap-[8px] items-center mb-[0.5rem]">
               <LocationMark/>
               {
-                "Azerbaijan, Baku"
+                bannerT("address")
               }
             </p>
             <p className="body-2-all-screen flex gap-[8px] items-center">
@@ -41,7 +39,7 @@ export default function Banner() {
                 width={24}
               />
               {
-                "Azerbaijan, Baku"
+                bannerT("available")
               }
             </p>
           </div>

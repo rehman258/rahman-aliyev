@@ -3,13 +3,15 @@ import Image from "next/image";
 import SectionWrapper from "../common/sectionWrapper";
 import "./scss/index.scss";
 import SectionHeader from "@/src/components/common/sectionHeader";
+import { useTranslations } from "next-intl";
 export default function About() {
+  const aboutT = useTranslations("ABOUT");
   return (
     <SectionWrapper
       className="bg-theme-light-50 dark:bg-theme-dark-50  
     ">
       <SectionHeader
-        title="About me"
+        title={aboutT("title")}
       />
       <div className="sm:flex">
         <div
@@ -27,45 +29,13 @@ export default function About() {
           <h5
             className="text-[3rem] mb-[1.5rem] heading-3-tablet_mobile-bold 
           text-theme-light-900 dark:text-theme-dark-900">
-            {"About me"}
+            {aboutT("title")}
           </h5>
+          <p className="text-theme-light-600 dark:text-theme-dark-600 mb-[5px]">
+            {aboutT("about1")}
+          </p>
           <p className="text-theme-light-600 dark:text-theme-dark-600">
-            {`Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Fugit aspernatur neque veritatis doloremque, 
-            adipisci laborum deleniti inventore harum delectus voluptatibus 
-            officia facilis iure, magni aliquid odit quam quas vitae ad.`}
-            {`Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Fugit aspernatur neque veritatis doloremque, 
-            adipisci laborum deleniti inventore harum delectus voluptatibus 
-            officia facilis iure, magni aliquid odit quam quas vitae ad.`}
-            {`Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Fugit aspernatur neque veritatis doloremque, 
-            adipisci laborum deleniti inventore harum delectus voluptatibus 
-            officia facilis iure, magni aliquid odit quam quas vitae ad.`}
-            {`Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Fugit aspernatur neque veritatis doloremque, 
-            adipisci laborum deleniti inventore harum delectus voluptatibus 
-            officia facilis iure, magni aliquid odit quam quas vitae ad.`}
-            {`Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Fugit aspernatur neque veritatis doloremque, 
-            adipisci laborum deleniti inventore harum delectus voluptatibus 
-            officia facilis iure, magni aliquid odit quam quas vitae ad.`}
-            {`Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Fugit aspernatur neque veritatis doloremque, 
-            adipisci laborum deleniti inventore harum delectus voluptatibus 
-            officia facilis iure, magni aliquid odit quam quas vitae ad.`}
-            {`Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Fugit aspernatur neque veritatis doloremque, 
-            adipisci laborum deleniti inventore harum delectus voluptatibus 
-            officia facilis iure, magni aliquid odit quam quas vitae ad.`}
-            {`Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Fugit aspernatur neque veritatis doloremque, 
-            adipisci laborum deleniti inventore harum delectus voluptatibus 
-            officia facilis iure, magni aliquid odit quam quas vitae ad.`}
-            {`Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Fugit aspernatur neque veritatis doloremque, 
-            adipisci laborum deleniti inventore harum delectus voluptatibus 
-            officia facilis iure, magni aliquid odit quam quas vitae ad.`}
+            {aboutT("about2")}
           </p>
         </div>
       </div>

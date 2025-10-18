@@ -8,6 +8,8 @@ import { Locale, defaultLocale } from "@/src/i18n/config";
 const COOKIE_NAME = "NEXT_LOCALE";
 
 export async function getUserLocale() {
+  const abc = await cookies();
+  console.log(abc.get(COOKIE_NAME)?.value);
   return (await cookies()).get(COOKIE_NAME)?.value || defaultLocale;
 }
 

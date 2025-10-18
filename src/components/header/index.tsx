@@ -3,9 +3,11 @@ import Image from "next/image";
 import ModeSwticher from "./modeSwitcher";
 import LanguageSwtitcher from "../common/languageSwitcher";
 import DownloadResume from "./downloadResume";
+import { useTranslations } from "next-intl";
 import "./scss/index.scss";
 
 export default function Header({ mode,changeMode }:{ mode: string; changeMode: () => void; }) {
+  const headerT = useTranslations("HEADER");
   return (
     <header
       className=" py-[16px] px-[1rem] lg:px-[5rem] sticky top-[0px] bg lg:relative 
@@ -18,18 +20,19 @@ export default function Header({ mode,changeMode }:{ mode: string; changeMode: (
         </div>
         <nav className="flex items-center">
           <ul className="flex gap-[24px] align-center">
-            <li className="body-2-all-screen-medium cursor-pointer">{"Home"}</li>
-            <li className="body-2-all-screen-medium cursor-pointer">{"About"}</li>
-            <li className="body-2-all-screen-medium cursor-pointer">{"Skills"}</li>
-            <li className="body-2-all-screen-medium cursor-pointer">{"Eperience"}</li>
-            <li className="body-2-all-screen-medium cursor-pointer">{"Works"}</li>
-            <li className="body-2-all-screen-medium cursor-pointer">{"Contact"}</li>
+            <li className="body-2-all-screen-medium cursor-pointer">{headerT("NAV.home")}</li>
+            <li className="body-2-all-screen-medium cursor-pointer">{headerT("NAV.about")}</li>
+            <li className="body-2-all-screen-medium cursor-pointer">{headerT("NAV.skills")}</li>
+            <li className="body-2-all-screen-medium cursor-pointer">{headerT("NAV.experience")}</li>
+            <li className="body-2-all-screen-medium cursor-pointer">{headerT("NAV.projects")}</li>
+            <li className="body-2-all-screen-medium cursor-pointer">{headerT("NAV.contact")}</li>
           </ul>
           <span className="h-[28px] bg-theme-dark-500 w-[1px] mx-[16px]"></span>
-          <div className="flex align-center gap-[16px]">
+          <div className="flex items-center gap-[16px]">
             <ModeSwticher
               changeMode={changeMode}
               mode={mode}/>
+            <LanguageSwtitcher/>
             <DownloadResume/>
           </div>
         </nav>

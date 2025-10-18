@@ -3,6 +3,7 @@ import { getUserLocale } from "../locale";
 
 export default getRequestConfig(async () => {
   const locale = await getUserLocale();
+  console.log(locale);
 
   return {
     locale,
