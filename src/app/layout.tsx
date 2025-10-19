@@ -23,7 +23,7 @@ export default async function LocaleLayout({ children }: Props) {
       lang={locale}
     >
       <head>
-        <title>{"next-intl example"}</title>
+        <title>{"Rahman Aliyev"}</title>
       </head>
       <body data-theme="light">
         <NextIntlClientProvider>

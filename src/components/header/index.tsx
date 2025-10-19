@@ -16,7 +16,12 @@ export default function Header({ mode,changeMode }:{ mode: string; changeMode: (
         <div
           className="logo text-theme-dark-default dark:text-theme-light-default font-bold text-[1rem] 
         lg:text-[1.125rem]">
-          {"<> Rahman Aliyev </>"}
+          <Image
+            alt="site logo"
+            height={125}
+            src={"/light-logo.png"}
+            width={95}
+          />
         </div>
         <nav className="flex items-center">
           <ul className="flex gap-[24px] align-center">
