@@ -48,7 +48,42 @@
     "sep": "Sep",
     "oct": "Oct",
     "nov": "Nov",
-    "dec": "Dec"
+    "dec": "Dec",
+    "exp5":{
+      "desc1": "- Led Vue.js to Next.js migration for payment platform",
+      "desc2": "- Established coding standards for team of 5 developers",
+      "desc3": "- Built UI components with Vuetify across 15+ screens",
+      "desc4": "- Reduced component development time by 40%",
+      "desc5": "- Enhanced web app responsiveness and user interaction"
+    },
+    "exp4":{
+      "desc1": "- Cut page load times from 8.3s to 2.1s using React",
+      "desc2": "- Saved $1.8k monthly in server costs through optimization",
+      "desc3": "- Built appointment app handling 200+ daily bookings",
+      "desc4": "- Achieved 99.3% uptime rate",
+      "desc5": "- Reduced appointment calls by 40% (150 to 90 daily)"
+    },
+    "exp3":{
+      "desc1": "- Boosted case processing speed by 60% via system integrations",
+      "desc2": "- Reduced call center response time by 62%",
+      "desc3": "- Managed multiple client projects simultaneously",
+      "desc4": "- Secured major contract renewals with high satisfaction rates",
+      "desc5": "- Partnered with Ministry of Justice for process optimization"
+    },
+    "exp2":{
+      "desc1": "- Developed real estate bot frontend",
+      "desc2": "- Built feature to scrape and display owner-shared ads",
+      "desc3": "- Created user-friendly interface with HTML, CSS, JavaScript",
+      "desc4": "- Ensured cross-browser and device compatibility",
+      "desc5": "- Integrated frontend with backend APIs seamlessly"
+    },
+    "exp1":{
+      "desc1": "- Managed warehouse inventory tracking system",
+      "desc2": "- Developed efficient browser tab navigation system",
+      "desc3": "- Built TripAdvisor-style travel website",
+      "desc4": "- Created responsive, user-friendly interfaces",
+      "desc5": "- Optimized performance through testing and debugging"
+    }
     
   },
   "PROJECTS": {

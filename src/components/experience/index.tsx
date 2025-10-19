@@ -13,12 +13,65 @@ export default function Experience() {
       url:"https://mpay.az",
       profession:experienceT("profession"),
       details:[
-        "lorem ipsum dolor sit amet",
-        "lorem ipsum dolor sit amet",
-        "lorem ipsum dolor sit amet",
-        "lorem ipsum dolor sit amet"
+        experienceT("exp5.desc1"),
+        experienceT("exp5.desc2"),
+        experienceT("exp5.desc3"),
+        experienceT("exp5.desc4"),
+        experienceT("exp5.desc5"),
       ],
       date:`${experienceT("jul")} 2023 - ${experienceT("present")}`,
+    },
+    {
+      img:"Intelligence Solutions",
+      url:"",
+      profession:experienceT("profession"),
+      details:[
+        experienceT("exp4.desc1"),
+        experienceT("exp4.desc2"),
+        experienceT("exp4.desc3"),
+        experienceT("exp4.desc4"),
+        experienceT("exp4.desc5"),
+      ],
+      date:`${experienceT("jan")} 2023 - ${experienceT("jul")} 2023`,
+    },
+    {
+      img:"Freelance",
+      url:"",
+      profession:experienceT("profession"),
+      details:[
+        experienceT("exp3.desc1"),
+        experienceT("exp3.desc2"),
+        experienceT("exp3.desc3"),
+        experienceT("exp3.desc4"),
+        experienceT("exp3.desc5"),
+      ],
+      date:`${experienceT("feb")} 2022 - ${experienceT("jan")} 2023`,
+    },
+    {
+      img:"Time Group",
+      url:"",
+      profession:experienceT("profession"),
+      details:[
+        experienceT("exp2.desc1"),
+        experienceT("exp2.desc2"),
+        experienceT("exp2.desc3"),
+        experienceT("exp2.desc4"),
+        experienceT("exp2.desc5"),
+      ],
+      date:`${experienceT("jun")} 2020 - ${experienceT("feb")} 2021`,
+    },
+    {
+      img:"Metiaturk MMC",
+      url:"",
+      profession:experienceT("profession_little"),
+      details:[
+        experienceT("exp1.desc1"),
+        experienceT("exp1.desc2"),
+        experienceT("exp1.desc3"),
+        experienceT("exp1.desc4"),
+        experienceT("exp1.desc5"),
+      ],
+      date:`${experienceT("mar")} 2019 - ${experienceT("feb")} 2020`,
     },
   ];
   return (
@@ -29,7 +82,7 @@ export default function Experience() {
         desc={experienceT("desc")}
         title={experienceT("title")}
       />
-      <ul className="experience-list  mx-auto flex flex-col items-center">
+      <ul className="experience-list gap-y-[30px]  mx-auto flex flex-col items-center">
         {
           experiences.map((experienceItem)=>(
             <li
@@ -40,14 +93,18 @@ export default function Experience() {
             sm:max-w-[350px]
             md:flex-row md:max-w-[896px]
             ">
-              <a href={experienceItem.url}>
-                <Image
-                  alt="work place image"
-                  height={30}
-                  src={experienceItem.img}
-                  width={125}
-                />
-              </a>
+              {
+                experienceItem.img.includes("/") ?  
+                  <a href={experienceItem.url}>
+                    <Image
+                      alt="work place image"
+                      height={30}
+                      src={experienceItem.img}
+                      width={125}
+                    />
+                  </a>
+                  : <h6 className="font-bold ">{experienceItem.img}</h6>
+              }
               <div className="job-details">
                 <h5
                   className="subtitle-tablet_mobile-semibold 
@@ -67,7 +124,9 @@ export default function Experience() {
                   
                 </ul>
               </div>
-              <div className="attended-date text-theme-light-700 dark:text-theme-dark-700 body-2-all-screen">
+              <div
+                className="attended-date text-theme-light-700 w-[175px] 
+              dark:text-theme-dark-700 body-2-all-screen">
                 {experienceItem.date}
               </div>
             </li>
