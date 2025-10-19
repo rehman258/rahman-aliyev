@@ -87,11 +87,11 @@ export default function Experience() {
           experiences.map((experienceItem)=>(
             <li
               key={experienceItem.date}
-              className="experience-list__item w-[100%] flex flex-col gap-[3rem] flex justify-between
+              className="experience-list__item w-[100%] flex flex-col flex justify-between
             bg-theme-light-100 dark:bg-theme-dark-100 p-[2rem] rounded-md 
             shadow-[0px_0px_22px_-8px_rgba(0,0,0,0.5)]
             sm:max-w-[350px]
-            md:flex-row md:max-w-[896px]
+            md:flex-row md:max-w-[1000px]
             ">
               {
                 experienceItem.img.includes("/") ?  
@@ -103,9 +103,9 @@ export default function Experience() {
                       width={125}
                     />
                   </a>
-                  : <h6 className="font-bold ">{experienceItem.img}</h6>
+                  : <h6 className="font-bold w-[150px]">{experienceItem.img}</h6>
               }
-              <div className="job-details">
+              <div className="job-details w-[600px]">
                 <h5
                   className="subtitle-tablet_mobile-semibold 
                 text-theme-light-900 dark:text-theme-dark-900 mb-[1rem]">
