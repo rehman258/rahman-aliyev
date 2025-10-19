@@ -1,104 +1,103 @@
 {
   "HEADER": {
-    "logo": "Frontend Developeren",
+    "logo": "Frontend Developer",
     "NAV": {
-      "home": "Home",
-      "about": "About",
-      "skills": "Skills",
-      "experience":"Experience",
-      "projects": "Projects",
-      "contact": "Contact",
-      "download_cv": "Download Cv"
+      "home": "Ana Səhifə",
+      "about": "Haqqımda",
+      "skills": "Bacarıqlar",
+      "experience": "Təcrübə",
+      "projects": "Layihələr",
+      "contact": "Əlaqə",
+      "download_cv": "CV Yüklə"
     }
   },
 
   "BANNER": {
-    "hi_Iam": "Hi, I'am Rahman 👋",
-    "desc": "I'm a frontend developer with 5+ years of experience turning complex problems into elegant solutions. From healthcare systems to payment platforms, I've built applications that handle thousands of daily users across diverse industries. Specializing in React and Next.js, I create fast, accessible interfaces that just work.",
-    "address": "Azerbaijan, Baku",
-    "available": "Available for new projects"
+    "hi_Iam": "Salam, Mən Rəhmanam 👋",
+    "desc": "Mən 5+ illik təcrübəyə malik frontend developer'am, mürəkkəb problemləri elegant həllərə çevirirəm. Səhiyyə sistemlərindən ödəniş platformalarına qədər, müxtəlif sənaye sahələrində minlərlə gündəlik istifadəçiyə xidmət edən tətbiqlər yaratmışam. React və Next.js üzrə ixtisaslaşaraq, sürətli, əlçatan və sadəcə işləyən interfeyslər yaradıram.",
+    "address": "Azərbaycan, Bakı",
+    "available": "Yeni layihələr üçün açığam"
   },
   "ABOUT": {
-    "title": "About Me",
-    "about1": "I am a versatile frontend engineer with 5+ years of experience transforming ambitious ideas into powerful web experiences. Currently at MPAY CJSC, I architect sophisticated applications using Vue.js, Next.js, and Vuetify, while mastering an extensive toolkit—from React.js and TypeScript to jQuery, Bootstrap, MUI, HeroUI, Tailwind CSS and advanced state management with Redux, ReduxToolkit and Vuex.",
-    "about2": "My career highlights include revolutionizing a legacy hospital system with React.js, achieving exponential efficiency gains, and successfully integrating the Bank Court system with Azerbaijan's Ministry of Justice—proving my ability to deliver mission-critical solutions. I've built everything from intelligent web scraping bots that captured vital business intelligence to robust appointment systems that transformed user satisfaction metrics.",
-    "what_i_do": "What I Do"
+    "title": "Haqqımda",
+    "about1": "Mən 5+ illik təcrübəyə malik çoxfunksiyalı frontend mühəndisiyəm, iddialı ideyaları güclü veb təcrübələrə çevirirəm. Hal-hazırda MPAY CJSC-də Vue.js, Next.js və Vuetify istifadə edərək mürəkkəb tətbiqlər yaradıram, eyni zamanda React.js və TypeScript-dən jQuery, Bootstrap, MUI, HeroUI, Tailwind CSS və Redux, ReduxToolkit, Vuex ilə qabaqcıl state idarəetməsinə qədər geniş alətlər toplusunu yaxşı bilirəm.",
+    "about2": "Karyeramın əsas nailiyyətləri arasında React.js ilə köhnə xəstəxana sistemini inqilabi dərəcədə yeniləmək, eksponensial səmərəlilik artımına nail olmaq və Azərbaycan Ədliyyə Nazirliyi ilə Bank Məhkəmə sistemini uğurla inteqrasiya etmək var - bu da kritik əhəmiyyətli həllər təqdim etmək qabiliyyətimi sübut edir. Mən vacib biznes məlumatlarını toplayan ağıllı veb scraping botlardan tutmuş istifadəçi məmnuniyyət göstəricilərini dəyişdirən güclü görüş sistemlərinə qədər hər şey yaratmışam.",
+    "what_i_do": "Nə Edirəm"
   },
   "SKILLS": {
-    "title": "Skills",
-    "desc":"The skills, tools and technologies I am really good at:",
-    "tools": "Tools",
-    "frameworks": "Frameworks"
+    "title": "Bacarıqlar",
+    "desc": "Həqiqətən yaxşı bildiyim bacarıqlar, alətlər və texnologiyalar:",
+    "tools": "Alətlər",
+    "frameworks": "Freymvorklar"
   },
   "EXPERIENCE": {
-    "title": "Experience",
-    "education": "Education",
-    "present":"Present",
-    "desc": "My professional journey has been marked by a series of impactful roles and projects.",
+    "title": "Təcrübə",
+    "education": "Təhsil",
+    "present": "İndiki",
+    "desc": "Peşəkar yolum təsirli rollar və layihələr silsiləsi ilə yadda qalıb.",
     "profession": "Frontend developer",
-    "profession_little": "Junior Frontend developer",
-    "jan": "Jan",
-    "feb": "Feb",
+    "profession_little": "Kiçik Frontend developer",
+    "jan": "Yan",
+    "feb": "Fev",
     "mar": "Mar",
     "apr": "Apr",
     "may": "May",
-    "jun": "Jun",
-    "jul": "Jul",
-    "aug": "Aug",
-    "sep": "Sep",
-    "oct": "Oct",
-    "nov": "Nov",
-    "dec": "Dec",
-    "exp5":{
-      "desc1": "- Led Vue.js to Next.js migration for payment platform",
-      "desc2": "- Established coding standards for team of 5 developers",
-      "desc3": "- Built UI components with Vuetify across 15+ screens",
-      "desc4": "- Reduced component development time by 40%",
-      "desc5": "- Enhanced web app responsiveness and user interaction"
+    "jun": "İyn",
+    "jul": "İyl",
+    "aug": "Avq",
+    "sep": "Sen",
+    "oct": "Okt",
+    "nov": "Noy",
+    "dec": "Dek",
+    "exp5": {
+      "desc1": "- Ödəniş platforması üçün Vue.js-dən Next.js-ə miqrasiyaya rəhbərlik edirəm",
+      "desc2": "- 5 nəfərlik komanda üçün kodlaşdırma standartları yaratdım",
+      "desc3": "- 15+ ekran üzrə Vuetify ilə UI komponentləri yaratdım",
+      "desc4": "- Komponent hazırlama vaxtını 40% azaltdım",
+      "desc5": "- Veb tətbiqin cavab verməsini və istifadəçi interaksiyasını təkmilləşdirdim"
     },
-    "exp4":{
-      "desc1": "- Cut page load times from 8.3s to 2.1s using React",
-      "desc2": "- Saved $1.8k monthly in server costs through optimization",
-      "desc3": "- Built appointment app handling 200+ daily bookings",
-      "desc4": "- Achieved 99.3% uptime rate",
-      "desc5": "- Reduced appointment calls by 40% (150 to 90 daily)"
+    "exp4": {
+      "desc1": "- React istifadə edərək səhifə yüklənmə vaxtını 8.3s-dən 2.1s-ə endirdim",
+      "desc2": "- Optimallaşdırma ilə aylıq $1.8k server xərclərini azaltdım",
+      "desc3": "- Gündəlik 200+ görüş idarə edən tətbiq yaratdım",
+      "desc4": "- 99.3% işləmə müddətinə nail oldum",
+      "desc5": "- Görüş zənglərini 40% azaltdım (gündəlik 150-dən 90-a)"
     },
-    "exp3":{
-      "desc1": "- Boosted case processing speed by 60% via system integrations",
-      "desc2": "- Reduced call center response time by 62%",
-      "desc3": "- Managed multiple client projects simultaneously",
-      "desc4": "- Secured major contract renewals with high satisfaction rates",
-      "desc5": "- Partnered with Ministry of Justice for process optimization"
+    "exp3": {
+      "desc1": "- Sistem inteqrasiyaları ilə işlərin emal sürətini 60% artırdım",
+      "desc2": "- Çağrı mərkəzinin cavab vaxtını 62% azaltdım",
+      "desc3": "- Eyni vaxtda çoxlu müştəri layihələrini idarə etdim",
+      "desc4": "- Yüksək məmnuniyyətlə əsas müqavilə yenilənmələrini təmin etdim",
+      "desc5": "- Proseslərin optimallaşdırılması üçün Ədliyyə Nazirliyi ilə əməkdaşlıq etdim"
     },
-    "exp2":{
-      "desc1": "- Developed real estate bot frontend",
-      "desc2": "- Built feature to scrape and display owner-shared ads",
-      "desc3": "- Created user-friendly interface with HTML, CSS, JavaScript",
-      "desc4": "- Ensured cross-browser and device compatibility",
-      "desc5": "- Integrated frontend with backend APIs seamlessly"
+    "exp2": {
+      "desc1": "- Daşınmaz əmlak botu üçün frontend yaratdım",
+      "desc2": "- Sahiblərin paylaşdığı elanları toplayan və göstərən funksiya yaratdım",
+      "desc3": "- HTML, CSS, JavaScript ilə istifadəçi dostu interfeys yaratdım",
+      "desc4": "- Brauzer və cihaz uyğunluğunu təmin etdim",
+      "desc5": "- Frontend-i backend API-ləri ilə düzgün formada inteqrasiya etdim"
     },
-    "exp1":{
-      "desc1": "- Managed warehouse inventory tracking system",
-      "desc2": "- Developed efficient browser tab navigation system",
-      "desc3": "- Built TripAdvisor-style travel website",
-      "desc4": "- Created responsive, user-friendly interfaces",
-      "desc5": "- Optimized performance through testing and debugging"
+    "exp1": {
+      "desc1": "- Anbar inventar izləmə sistemini idarə etdim",
+      "desc2": "- Səmərəli brauzer tab naviqasiya sistemi yaratdım",
+      "desc3": "- TripAdvisor tipli səyahət veb saytı yaratdım",
+      "desc4": "- Cavab verən, istifadəçi dostu interfeyslər yaratdım",
+      "desc5": "- Test və sazlama ilə performansı optimallaşdırdım"
     }
-    
   },
   "PROJECTS": {
-    "title": "Projects",
-    "desc":"Some of the noteworthy projects I have built:",
+    "title": "Layihələr",
+    "desc": "Yaratdığım diqqətəlayiq layihələrdən bəziləri:",
     "portfolio": "Portfolio",
     "project1_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
   },
   "CONTACT": {
-    "title": "Get in touch",
-    "desc":"What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.",
-    "ending":"You may also find me on these platforms!",
-    "email": "Email ",
-    "subject": "Subject",
-    "message": "Message",
-    "submit": "Submit"
+    "title": "Əlaqə saxlayın",
+    "desc": "Növbəti nədir? Əgər developer axtarırsınızsa, sualınız varsa və ya sadəcə əlaqə saxlamaq istəyirsinizsə, mənə müraciət etməkdən çəkinməyin.",
+    "ending": "Məni bu platformalarda da tapa bilərsiniz!",
+    "email": "E-poçt",
+    "subject": "Mövzu",
+    "message": "Mesaj",
+    "submit": "Göndər"
   }
 }

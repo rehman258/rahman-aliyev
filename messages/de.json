@@ -1,104 +1,103 @@
 {
   "HEADER": {
-    "logo": "Frontend Developeren",
+    "logo": "Frontend Entwickler",
     "NAV": {
-      "home": "Home",
-      "about": "About",
-      "skills": "Skills",
-      "experience":"Experience",
-      "projects": "Projects",
-      "contact": "Contact",
-      "download_cv": "Download Cv"
+      "home": "Startseite",
+      "about": "Über mich",
+      "skills": "Fähigkeiten",
+      "experience": "Erfahrung",
+      "projects": "Projekte",
+      "contact": "Kontakt",
+      "download_cv": "CV Herunterladen"
     }
   },
 
   "BANNER": {
-    "hi_Iam": "Hi, I'am Rahman 👋",
-    "desc": "I'm a frontend developer with 5+ years of experience turning complex problems into elegant solutions. From healthcare systems to payment platforms, I've built applications that handle thousands of daily users across diverse industries. Specializing in React and Next.js, I create fast, accessible interfaces that just work.",
-    "address": "Azerbaijan, Baku",
-    "available": "Available for new projects"
+    "hi_Iam": "Hallo, Ich bin Rahman 👋",
+    "desc": "Ich bin ein Frontend-Entwickler mit über 5 Jahren Erfahrung, der komplexe Probleme in elegante Lösungen verwandelt. Von Gesundheitssystemen bis zu Zahlungsplattformen habe ich Anwendungen entwickelt, die täglich tausende Nutzer in verschiedenen Branchen bedienen. Mit Spezialisierung auf React und Next.js erstelle ich schnelle, barrierefreie Interfaces, die einfach funktionieren.",
+    "address": "Aserbaidschan, Baku",
+    "available": "Verfügbar für neue Projekte"
   },
   "ABOUT": {
-    "title": "About Me",
-    "about1": "I am a versatile frontend engineer with 5+ years of experience transforming ambitious ideas into powerful web experiences. Currently at MPAY CJSC, I architect sophisticated applications using Vue.js, Next.js, and Vuetify, while mastering an extensive toolkit—from React.js and TypeScript to jQuery, Bootstrap, MUI, HeroUI, Tailwind CSS and advanced state management with Redux, ReduxToolkit and Vuex.",
-    "about2": "My career highlights include revolutionizing a legacy hospital system with React.js, achieving exponential efficiency gains, and successfully integrating the Bank Court system with Azerbaijan's Ministry of Justice—proving my ability to deliver mission-critical solutions. I've built everything from intelligent web scraping bots that captured vital business intelligence to robust appointment systems that transformed user satisfaction metrics.",
-    "what_i_do": "What I Do"
+    "title": "Über mich",
+    "about1": "Ich bin ein vielseitiger Frontend-Ingenieur mit über 5 Jahren Erfahrung in der Transformation ambitionierter Ideen in leistungsstarke Web-Erlebnisse. Derzeit arbeite ich bei MPAY CJSC und entwickle anspruchsvolle Anwendungen mit Vue.js, Next.js und Vuetify, während ich ein umfangreiches Toolkit beherrsche – von React.js und TypeScript bis jQuery, Bootstrap, MUI, HeroUI, Tailwind CSS und fortgeschrittenem State-Management mit Redux, ReduxToolkit und Vuex.",
+    "about2": "Zu meinen Karriere-Highlights gehören die revolutionäre Modernisierung eines Legacy-Krankenhaussystems mit React.js, exponenzielle Effizienzsteigerungen und die erfolgreiche Integration des Bank-Gerichtssystems mit dem Justizministerium Aserbaidschans – was meine Fähigkeit beweist, geschäftskritische Lösungen zu liefern. Ich habe alles entwickelt, von intelligenten Web-Scraping-Bots, die wichtige Geschäftsdaten erfassen, bis zu robusten Terminvereinbarungssystemen, die Nutzerzufriedenheitswerte transformiert haben.",
+    "what_i_do": "Was ich mache"
   },
   "SKILLS": {
-    "title": "Skills",
-    "desc":"The skills, tools and technologies I am really good at:",
-    "tools": "Tools",
+    "title": "Fähigkeiten",
+    "desc": "Die Fähigkeiten, Tools und Technologien, die ich wirklich gut beherrsche:",
+    "tools": "Werkzeuge",
     "frameworks": "Frameworks"
   },
   "EXPERIENCE": {
-    "title": "Experience",
-    "education": "Education",
-    "present":"Present",
-    "desc": "My professional journey has been marked by a series of impactful roles and projects.",
-    "profession": "Frontend developer",
-    "profession_little": "Junior Frontend developer",
+    "title": "Erfahrung",
+    "education": "Ausbildung",
+    "present": "Aktuell",
+    "desc": "Mein beruflicher Werdegang ist geprägt von einer Reihe wirkungsvoller Rollen und Projekte.",
+    "profession": "Frontend Entwickler",
+    "profession_little": "Junior Frontend Entwickler",
     "jan": "Jan",
     "feb": "Feb",
-    "mar": "Mar",
+    "mar": "Mär",
     "apr": "Apr",
-    "may": "May",
+    "may": "Mai",
     "jun": "Jun",
     "jul": "Jul",
     "aug": "Aug",
     "sep": "Sep",
-    "oct": "Oct",
+    "oct": "Okt",
     "nov": "Nov",
-    "dec": "Dec",
-    "exp5":{
-      "desc1": "- Led Vue.js to Next.js migration for payment platform",
-      "desc2": "- Established coding standards for team of 5 developers",
-      "desc3": "- Built UI components with Vuetify across 15+ screens",
-      "desc4": "- Reduced component development time by 40%",
-      "desc5": "- Enhanced web app responsiveness and user interaction"
+    "dec": "Dez",
+    "exp5": {
+      "desc1": "- Leitete Vue.js zu Next.js Migration für Zahlungsplattform",
+      "desc2": "- Etablierte Coding-Standards für 5-köpfiges Team",
+      "desc3": "- Erstellte UI-Komponenten mit Vuetify über 15+ Screens",
+      "desc4": "- Reduzierte Komponenten-Entwicklungszeit um 40%",
+      "desc5": "- Verbesserte Web-App Reaktionsfähigkeit und Nutzerinteraktion"
     },
-    "exp4":{
-      "desc1": "- Cut page load times from 8.3s to 2.1s using React",
-      "desc2": "- Saved $1.8k monthly in server costs through optimization",
-      "desc3": "- Built appointment app handling 200+ daily bookings",
-      "desc4": "- Achieved 99.3% uptime rate",
-      "desc5": "- Reduced appointment calls by 40% (150 to 90 daily)"
+    "exp4": {
+      "desc1": "- Verkürzte Seitenladezeiten von 8,3s auf 2,1s mit React",
+      "desc2": "- Sparte monatlich $1.8k Serverkosten durch Optimierung",
+      "desc3": "- Entwickelte Termin-App für 200+ tägliche Buchungen",
+      "desc4": "- Erreichte 99,3% Verfügbarkeitsrate",
+      "desc5": "- Reduzierte Terminanrufe um 40% (150 auf 90 täglich)"
     },
-    "exp3":{
-      "desc1": "- Boosted case processing speed by 60% via system integrations",
-      "desc2": "- Reduced call center response time by 62%",
-      "desc3": "- Managed multiple client projects simultaneously",
-      "desc4": "- Secured major contract renewals with high satisfaction rates",
-      "desc5": "- Partnered with Ministry of Justice for process optimization"
+    "exp3": {
+      "desc1": "- Steigerte Fallbearbeitungsgeschwindigkeit um 60% durch Systemintegrationen",
+      "desc2": "- Reduzierte Call-Center-Antwortzeit um 62%",
+      "desc3": "- Verwaltete mehrere Kundenprojekte gleichzeitig",
+      "desc4": "- Sicherte wichtige Vertragsverlängerungen mit hoher Zufriedenheit",
+      "desc5": "- Partnerte mit Justizministerium für Prozessoptimierung"
     },
-    "exp2":{
-      "desc1": "- Developed real estate bot frontend",
-      "desc2": "- Built feature to scrape and display owner-shared ads",
-      "desc3": "- Created user-friendly interface with HTML, CSS, JavaScript",
-      "desc4": "- Ensured cross-browser and device compatibility",
-      "desc5": "- Integrated frontend with backend APIs seamlessly"
+    "exp2": {
+      "desc1": "- Entwickelte Frontend für Immobilien-Bot",
+      "desc2": "- Erstellte Funktion zum Scrapen und Anzeigen von Eigentümer-Anzeigen",
+      "desc3": "- Erstellte benutzerfreundliche Oberfläche mit HTML, CSS, JavaScript",
+      "desc4": "- Gewährleistete Browser- und Gerätekompatibilität",
+      "desc5": "- Integrierte Frontend nahtlos mit Backend-APIs"
     },
-    "exp1":{
-      "desc1": "- Managed warehouse inventory tracking system",
-      "desc2": "- Developed efficient browser tab navigation system",
-      "desc3": "- Built TripAdvisor-style travel website",
-      "desc4": "- Created responsive, user-friendly interfaces",
-      "desc5": "- Optimized performance through testing and debugging"
+    "exp1": {
+      "desc1": "- Verwaltete Lager-Inventar-Tracking-System",
+      "desc2": "- Entwickelte effizientes Browser-Tab-Navigationssystem",
+      "desc3": "- Erstellte TripAdvisor-ähnliche Reisewebseite",
+      "desc4": "- Erstellte responsive, benutzerfreundliche Interfaces",
+      "desc5": "- Optimierte Performance durch Testing und Debugging"
     }
-    
   },
   "PROJECTS": {
-    "title": "Projects",
-    "desc":"Some of the noteworthy projects I have built:",
+    "title": "Projekte",
+    "desc": "Einige der bemerkenswerten Projekte, die ich entwickelt habe:",
     "portfolio": "Portfolio",
     "project1_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
   },
   "CONTACT": {
-    "title": "Get in touch",
-    "desc":"What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.",
-    "ending":"You may also find me on these platforms!",
-    "email": "Email ",
-    "subject": "Subject",
-    "message": "Message",
-    "submit": "Submit"
+    "title": "Kontakt aufnehmen",
+    "desc": "Was kommt als Nächstes? Zögern Sie nicht, mich zu kontaktieren, wenn Sie einen Entwickler suchen, eine Frage haben oder sich einfach vernetzen möchten.",
+    "ending": "Sie finden mich auch auf diesen Plattformen!",
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "submit": "Absenden"
   }
 }
