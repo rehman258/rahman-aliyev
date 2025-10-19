@@ -1,46 +1,66 @@
 {
   "HEADER": {
-    "logo": "Frontend Developerde",
+    "logo": "Frontend Developeren",
     "NAV": {
-      "home": "Haus",
-      "experience":"Experience",
+      "home": "Home",
       "about": "About",
-      "projects": "Projects",
       "skills": "Skills",
-      "contact": "Contact"
+      "experience":"Experience",
+      "projects": "Projects",
+      "contact": "Contact",
+      "download_cv": "Download Cv"
     }
   },
 
   "BANNER": {
-    "hi_Iam": "Hi, I'am",
+    "hi_Iam": "Hi, I'am Rahman 👋",
+    "desc": "I'm a frontend developer with 5+ years of experience turning complex problems into elegant solutions. From healthcare systems to payment platforms, I've built applications that handle thousands of daily users across diverse industries. Specializing in React and Next.js, I create fast, accessible interfaces that just work.",
     "address": "Azerbaijan, Baku",
     "available": "Available for new projects"
   },
   "ABOUT": {
     "title": "About Me",
-    "about1": "I am a versatile frontend engineer with 4+ years of experience transforming ambitious ideas into powerful web experiences. Currently at MPAY CJSC, I architect sophisticated applications using Vue.js, Next.js, and Vuetify, while mastering an extensive toolkit—from React.js and TypeScript to jQuery, Bootstrap, MUI, HeroUI, Tailwind CSS and advanced state management with Redux, ReduxToolkit and Vuex.",
+    "about1": "I am a versatile frontend engineer with 5+ years of experience transforming ambitious ideas into powerful web experiences. Currently at MPAY CJSC, I architect sophisticated applications using Vue.js, Next.js, and Vuetify, while mastering an extensive toolkit—from React.js and TypeScript to jQuery, Bootstrap, MUI, HeroUI, Tailwind CSS and advanced state management with Redux, ReduxToolkit and Vuex.",
     "about2": "My career highlights include revolutionizing a legacy hospital system with React.js, achieving exponential efficiency gains, and successfully integrating the Bank Court system with Azerbaijan's Ministry of Justice—proving my ability to deliver mission-critical solutions. I've built everything from intelligent web scraping bots that captured vital business intelligence to robust appointment systems that transformed user satisfaction metrics.",
     "what_i_do": "What I Do"
+  },
+  "SKILLS": {
+    "title": "Skills",
+    "desc":"The skills, tools and technologies I am really good at:",
+    "tools": "Tools",
+    "frameworks": "Frameworks"
   },
   "EXPERIENCE": {
     "title": "Experience",
     "education": "Education",
-    "description": "My professional journey has been marked by a series of impactful roles and projects.",
-    "experience": ""
+    "present":"Present",
+    "desc": "My professional journey has been marked by a series of impactful roles and projects.",
+    "profession": "Frontend developer",
+    "profession_little": "Junior Frontend developer",
+    "jan": "Jan",
+    "feb": "Feb",
+    "mar": "Mar",
+    "apr": "Apr",
+    "may": "May",
+    "jun": "Jun",
+    "jul": "Jul",
+    "aug": "Aug",
+    "sep": "Sep",
+    "oct": "Oct",
+    "nov": "Nov",
+    "dec": "Dec"
+    
   },
   "PROJECTS": {
     "title": "Projects",
+    "desc":"Some of the noteworthy projects I have built:",
     "portfolio": "Portfolio",
-    "project1": "Project 1",
-    "see_more": "See More"
-  },
-  "SKILLS": {
-    "skills": "Skills",
-    "tools": "Tools",
-    "frameworks": "Frameworks"
+    "project1_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
   },
   "CONTACT": {
-    "title": "Contact Me",
+    "title": "Get in touch",
+    "desc":"What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.",
+    "ending":"You may also find me on these platforms!",
     "email": "Email ",
     "subject": "Subject",
     "message": "Message",

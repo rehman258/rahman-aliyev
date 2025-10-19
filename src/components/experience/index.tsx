@@ -9,7 +9,8 @@ export default function Experience() {
   const experienceT = useTranslations("EXPERIENCE");
   const experiences = [
     {
-      img:"/my-image.jpeg",
+      img:"/workLogos/mpay.svg",
+      url:"https://mpay.az",
       profession:experienceT("profession"),
       details:[
         "lorem ipsum dolor sit amet",
@@ -39,12 +40,14 @@ export default function Experience() {
             sm:max-w-[350px]
             md:flex-row md:max-w-[896px]
             ">
-              <Image
-                alt="work place image"
-                height={30}
-                src={experienceItem.img}
-                width={125}
-              />
+              <a href={experienceItem.url}>
+                <Image
+                  alt="work place image"
+                  height={30}
+                  src={experienceItem.img}
+                  width={125}
+                />
+              </a>
               <div className="job-details">
                 <h5
                   className="subtitle-tablet_mobile-semibold 
