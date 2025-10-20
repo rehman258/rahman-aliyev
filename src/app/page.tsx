@@ -13,7 +13,7 @@ import Projects from "@/src/components/projects";
 import Contact from "@/src/components/contact";
 export default function SinglePage() {
     const { mode, changeMode } = useMod();
-    const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(true);
+    const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(false);
     const sidebarControlHandler = (val:boolean)=>{
       setIsSidebarOpen(val);
     };
