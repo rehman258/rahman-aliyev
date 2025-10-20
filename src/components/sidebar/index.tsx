@@ -1,13 +1,11 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { Dispatch, SetStateAction } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-export default function Sidebar() {
-  const [isSidebarOpen, setIsSideBarOpen] = useState<boolean>(true);
-  const sidebarControlHandler = (val:boolean)=>{
-    setIsSideBarOpen(val);
-  };
+export default function Sidebar({ isSidebarOpen,setIsSidebarOpen }:
+  {isSidebarOpen:boolean, setIsSidebarOpen: Dispatch<SetStateAction<boolean>>}) {
+  
   const headerT = useTranslations("HEADER");
   const navItems = [
     {
@@ -37,17 +35,25 @@ export default function Sidebar() {
     >
       <div
         className="sidebar-overlay  w-[100%] h-[100%] opacity-[.5] absolute"
-        onClick={()=>sidebarControlHandler(false)}></div>
+        onClick={()=>setIsSidebarOpen(false)}></div>
       <div
         className="w-[60%] sm:w-[50%] md:w-[40%] 
-      h-[100%] absolute z-2 bg-theme-light-default shadow pe-[10px]">
+      h-[100%] absolute z-2 bg-theme-light-default shadow ">
         <ul className={`flex flex-col gap-[5px] align-center} p-[1rem]`}>
-          <li>
+          <li className="flex items-start justify-between">
             <Image
               alt="logo"
               height={75}
               src={"/light-logo.png"}
-              width={150}
+              width={90}
+            />
+            <Image
+              alt="sidebar close icon"
+              className="self-start"
+              height={50}
+              src={"/icons/closeIcon.svg"}
+              width={50}
+              onClick={()=>setIsSidebarOpen(false)}
             />
           </li>
           {

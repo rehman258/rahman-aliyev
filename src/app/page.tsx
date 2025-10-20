@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, {useState} from "react";
 import useMod from "../hooks/useMod";
 import Button from "@/src/components/common/button";
 import Header from "@/src/components/header";
@@ -13,10 +13,14 @@ import Projects from "@/src/components/projects";
 import Contact from "@/src/components/contact";
 export default function SinglePage() {
     const { mode, changeMode } = useMod();
+    const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(true);
+    const sidebarControlHandler = (val:boolean)=>{
+      setIsSidebarOpen(val);
+    };
   return (
     <>
-      <Header mode={mode||"light"} changeMode={changeMode}/>
-      <Sidebar/>
+      <Header mode={mode||"light"} changeMode={changeMode} setIsSidebarOpen={setIsSidebarOpen}/>
+      <Sidebar isSidebarOpen={isSidebarOpen} setIsSidebarOpen={setIsSidebarOpen}/>
       <main>
         <Banner/>
         <About/>

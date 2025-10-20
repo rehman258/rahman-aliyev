@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Dispatch,SetStateAction } from "react";
 import Image from "next/image";
 import ModeSwticher from "./modeSwitcher";
 import LanguageSwtitcher from "../common/languageSwitcher";
@@ -6,7 +6,9 @@ import DownloadResume from "./downloadResume";
 import Navbar from "../navbar";
 import "./scss/index.scss";
 
-export default function Header({ mode,changeMode }:{ mode: string; changeMode: () => void; }) {
+export default function Header({ mode,changeMode, setIsSidebarOpen }:{ mode: string; changeMode: () => void;
+  setIsSidebarOpen:Dispatch<SetStateAction<boolean>>
+ }) {
   return (
     <header
       className=" py-[16px] px-[1rem] lg:px-[5rem] sticky top-[0px] bg lg:relative 
@@ -49,6 +51,7 @@ export default function Header({ mode,changeMode }:{ mode: string; changeMode: (
               height={24}
               src={`/icons/${mode}Hamburger.svg`}
               width={24}
+              onClick={()=>setIsSidebarOpen(true)}
             />
           </div>
         </div>
