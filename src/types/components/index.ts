@@ -1,6 +1,7 @@
 export interface IButton {
-  text:string,
-  mode?: ButtonMode,
+  text:string;
+  onClick?:()=>void;
+  mode?: ButtonMode;
 }
 
 export type ButtonMode = "light" | "dark" | "default"; 
