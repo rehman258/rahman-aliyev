@@ -3,6 +3,7 @@ import React from "react";
 import useMod from "../hooks/useMod";
 import Button from "@/src/components/common/button";
 import Header from "@/src/components/header";
+import Sidebar from "../components/sidebar";
 import Footer from "@/src/components/footer";
 import Banner from "@/src/components/banner/idnex";
 import About from "@/src/components/about";
@@ -15,6 +16,7 @@ export default function SinglePage() {
   return (
     <>
       <Header mode={mode||"light"} changeMode={changeMode}/>
+      <Sidebar/>
       <main>
         <Banner/>
         <About/>

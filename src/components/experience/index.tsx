@@ -105,18 +105,19 @@ export default function Experience() {
                   </a>
                   : <h6 className="font-bold w-[150px]">{experienceItem.img}</h6>
               }
-              <div className="job-details w-[600px]">
+              <div className="job-details w-[100%] md:-w-[600px]">
                 <h5
                   className="subtitle-tablet_mobile-semibold 
                 text-theme-light-900 dark:text-theme-dark-900 mb-[1rem]">
                   {experienceItem.profession}
                 </h5>
-                <ul>
+                <ul className="">
                   {
                     experienceItem.details.map((detailItem)=>(
                       <li
                         key={detailItem}
-                        className="body-2-all-screen text-theme-light-600 dark:text-theme-dark-600">
+                        className="body-2-all-screen mb-[10px] sm:mb-[0px]
+                        text-theme-light-600 dark:text-theme-dark-600">
                         {detailItem}
                       </li>
                     ))
