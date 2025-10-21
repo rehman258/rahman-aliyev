@@ -1,6 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@media (max-width: 1040px) {
+}
+
+html{
+  scroll-behavior: smooth;
+}
+@media (min-width: 1024px) {
+  html{
+    scroll-padding-top: 95px;
+  }
+}
 
 body{
   font-family: "Inter";

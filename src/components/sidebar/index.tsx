@@ -10,21 +10,27 @@ export default function Sidebar({ isSidebarOpen,setIsSidebarOpen }:
   const navItems = [
     {
       text: headerT("NAV.home"),
+      path:"home",
     },
     {
       text: headerT("NAV.about"),
+      path:"about",
     },
     {
       text: headerT("NAV.skills"),
+      path:"skills",
     },
     {
       text: headerT("NAV.experience"),
+      path:"experience",
     },
     {
       text: headerT("NAV.projects"),
+      path:"projects",
     },
     {
       text: headerT("NAV.contact"),
+      path:"contact",
     },
   ];
   return (
@@ -63,7 +69,7 @@ export default function Sidebar({ isSidebarOpen,setIsSidebarOpen }:
                 className="">
                 <a
                   className="block body-2-all-screen-medium cursor-pointer py-[10px] "
-                  href="">
+                  href={`#${navItem.path}`}>
                   {navItem.text}
                 </a>
               </li>

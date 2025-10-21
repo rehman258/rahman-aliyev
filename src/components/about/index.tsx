@@ -8,8 +8,8 @@ export default function About() {
   const aboutT = useTranslations("ABOUT");
   return (
     <SectionWrapper
-      className="bg-theme-light-50 dark:bg-theme-dark-50  
-    ">
+      className="bg-theme-light-50 dark:bg-theme-dark-50"
+      id="about">
       <SectionHeader
         title={aboutT("title")}
       />
@@ -26,11 +26,11 @@ export default function About() {
           />
         </div>
         <div className="sm:w-[65%] sm:ps-[2rem] xl:ps-[0px] xl:w-[50%] w-[100%] ">
-          <h5
+          <h3
             className="text-[3rem] mb-[1.5rem] heading-3-tablet_mobile-bold 
           text-theme-light-900 dark:text-theme-dark-900">
             {aboutT("title")}
-          </h5>
+          </h3>
           <p className="text-theme-light-600 dark:text-theme-dark-600 mb-[5px]">
             {aboutT("about1")}
           </p>

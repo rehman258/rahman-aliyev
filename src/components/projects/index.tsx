@@ -15,7 +15,7 @@ export default function Projects() {
     }
   ];
   return (
-    <SectionWrapper>
+    <SectionWrapper id="projects">
       <SectionHeader
         desc={projectsT("desc")}
         title={projectsT("title")}
@@ -39,11 +39,11 @@ export default function Projects() {
               <div
                 className="p-[2rem] md:p-[3rem] w-[100%] bg-theme-light-default 
           dark:bg-theme-dark-default flex flex-col gap-[1.5rem]">
-                <h6
+                <h2
                   className="project-item__title font-semibold 
             text-theme-light-900 dark:text-theme-dark-900 text-[20px] text-ellipsis">
                   {projectItem.title}
-                </h6>
+                </h2>
                 <p className="project-item__desc text-theme-light-600 dark:text-theme-dark-600">
                   {projectItem.desc}
                 </p>

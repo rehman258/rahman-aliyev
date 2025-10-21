@@ -11,15 +11,15 @@ export default function Header({ mode,changeMode, setIsSidebarOpen }:{ mode: str
  }) {
   return (
     <header
-      className=" py-[16px] px-[1rem] lg:px-[5rem] sticky top-[0px] bg lg:relative 
-    bg-theme-light-default dark:bg-theme-dark-default opacity-[95%]">
+      className=" py-[16px] px-[1rem] lg:px-[5rem] sticky top-[0px]
+    bg-theme-light-default dark:bg-theme-dark-default opacity-[95%]  top-[0px]">
       <div className="header-container flex justify-between items-center lg:flex hidden">
         <div
           className="logo text-theme-dark-default dark:text-theme-light-default font-bold text-[1rem] 
         lg:text-[1.125rem]">
           <Image
             alt="site logo"
-            height={125}
+            height={95}
             src={"/light-logo.png"}
             width={95}
           />

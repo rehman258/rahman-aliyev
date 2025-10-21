@@ -10,7 +10,7 @@ import { useTranslations } from "next-intl";
 export default function Contact({ mode }:{mode:string}) {
   const contactT = useTranslations("CONTACT");
   return (
-    <SectionWrapper>
+    <SectionWrapper id="contact">
       <SectionHeader
         desc={contactT("desc")}
         title={contactT("title")}

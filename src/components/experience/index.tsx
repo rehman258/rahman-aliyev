@@ -77,6 +77,7 @@ export default function Experience() {
   return (
     <SectionWrapper
       className="bg-theme-light-50 dark:bg-theme-dark-50"
+      id="experience"
     >
       <SectionHeader
         desc={experienceT("desc")}
@@ -103,14 +104,14 @@ export default function Experience() {
                       width={125}
                     />
                   </a>
-                  : <h6 className="font-bold w-[150px]">{experienceItem.img}</h6>
+                  : <h4 className="font-bold w-[150px]">{experienceItem.img}</h4>
               }
               <div className="job-details w-[100%] md:-w-[600px]">
-                <h5
+                <h3
                   className="subtitle-tablet_mobile-semibold 
                 text-theme-light-900 dark:text-theme-dark-900 mb-[1rem]">
                   {experienceItem.profession}
-                </h5>
+                </h3>
                 <ul className="">
                   {
                     experienceItem.details.map((detailItem)=>(

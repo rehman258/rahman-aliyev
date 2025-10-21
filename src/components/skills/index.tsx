@@ -50,7 +50,9 @@ export default function Skills() {
     },
   ];
   return (
-    <SectionWrapper className="">
+    <SectionWrapper
+      className=""
+      id="skills">
       <SectionHeader
         desc={skillsT("desc")}
         title={skillsT("title")}

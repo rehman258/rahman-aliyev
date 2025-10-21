@@ -5,21 +5,27 @@ export default function Navbar({ type }:{type?:string}) {
   const navItems = [
     {
       text: headerT("NAV.home"),
+      path:"home",
     },
     {
       text: headerT("NAV.about"),
+      path:"about",
     },
     {
       text: headerT("NAV.skills"),
+      path:"skills",
     },
     {
       text: headerT("NAV.experience"),
+      path:"experience",
     },
     {
       text: headerT("NAV.projects"),
+      path:"projects",
     },
     {
       text: headerT("NAV.contact"),
+      path:"contact",
     },
   ];
   return (
@@ -27,8 +33,14 @@ export default function Navbar({ type }:{type?:string}) {
       {
         navItems.map((navItem)=>(
           <li
-            key={navItem.text} 
-            className="body-2-all-screen-medium cursor-pointer">{navItem.text}</li>
+            key={navItem.text}>
+            <a
+              className="body-2-all-screen-medium cursor-pointer"
+              href={`#${navItem.path}`}
+            >
+              {navItem.text}
+            </a>
+          </li>
         ))
       }
     </ul>

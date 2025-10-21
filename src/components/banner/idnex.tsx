@@ -11,7 +11,9 @@ export default function Banner() {
   const bannerT = useTranslations("BANNER");
   const { mode } = useMod();
   return (
-    <SectionWrapper className="bg-theme-light-default dark:bg-theme-dark-default">
+    <SectionWrapper
+      className="bg-theme-light-default dark:bg-theme-dark-default"
+      id="home">
       <div className="banner-container flex flex-col md:flex-row justify-between">
         <div className="banner-conent w-[100%] md:w-[66.66666%] mb-[2rem]">
           <h1 className="heading-1-mobile-semibold mb-[0.5rem]">
