@@ -36,16 +36,22 @@ export default function Header({ mode,changeMode, setIsSidebarOpen }:{ mode: str
           </div>
         </nav>
       </div>
-      <div className="header-container flex justify-between items-center lg:hidden flex">
+      <div className="header-container flex flex-col items-end  lg:hidden flex">
         <div className="flex align-center justify-between w-[100%]">
           <div className="flex gap-[24px]">
+            <Image
+              alt="site logo"
+              height={75}
+              src={"/light-logo.png"}
+              width={75}
+            />
             <ModeSwticher
               changeMode={changeMode}
               mode={mode}/>
-            <DownloadResume/>
           </div>
           <div className="flex gap-[24px] items-center">
-            <LanguageSwtitcher/>
+            {/* <LanguageSwtitcher/> */}
+            <DownloadResume/>
             <Image
               alt="hamburger menu icon for side bar control"
               height={24}

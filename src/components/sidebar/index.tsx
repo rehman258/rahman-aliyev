@@ -3,6 +3,7 @@
 import React, { Dispatch, SetStateAction } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import LanguageSwtitcher from "../common/languageSwitcher";
 export default function Sidebar({ isSidebarOpen,setIsSidebarOpen }:
   {isSidebarOpen:boolean, setIsSidebarOpen: Dispatch<SetStateAction<boolean>>}) {
   
@@ -75,6 +76,9 @@ export default function Sidebar({ isSidebarOpen,setIsSidebarOpen }:
               </li>
             ))
           }
+          <li className="self-start">
+            <LanguageSwtitcher/>
+          </li>
         </ul>
       </div>
     </aside>
