@@ -95,7 +95,7 @@ export default function Experience() {
             md:flex-row md:max-w-[1000px]
             ">
               {
-                experienceItem.img.includes("/") ?  
+                experienceItem.img.includes("/") ?
                   <a href={experienceItem.url}>
                     <Image
                       alt="work place image"
@@ -106,7 +106,7 @@ export default function Experience() {
                   </a>
                   : <h4 className="font-bold w-[150px]">{experienceItem.img}</h4>
               }
-              <div className="job-details w-[100%] md:-w-[600px]">
+              <div className="job-details w-[100%] md:w-[550px]">
                 <h3
                   className="subtitle-tablet_mobile-semibold 
                 text-theme-light-900 dark:text-theme-dark-900 mb-[1rem]">

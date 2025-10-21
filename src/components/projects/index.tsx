@@ -13,7 +13,14 @@ export default function Projects() {
       desc:projectsT("project1_desc"),
       path:"https://www.pervincebrayilova.com/",
       techs:["HTML", "CSS", "Javascript"],
-    }
+    },
+    {
+      img:"/projectImages/helper.png",
+      title: "Helper Group",
+      desc:projectsT("project2_desc"),
+      path:"https://www.helpergroup.az/",
+      techs:["HTML", "CSS", "Javascript"],
+    },
   ];
   return (
     <SectionWrapper id="projects">
@@ -21,15 +28,16 @@ export default function Projects() {
         desc={projectsT("desc")}
         title={projectsT("title")}
       />
-      <ul className="projects-list w-[1152px] mx-auto">
+      <ul className="projects-list w-[1152px] flex flex-col mx-auto gap-[50px]">
         {
           projects.map((projectItem)=>(
-          
             <li
               key={projectItem.title}
-              className="flex flex-col shadow-[0px_0px_22px_-8px_rgba(0,0,0,0.5)] 
+              className="flex flex-col shadow-[0px_0px_22px_-8px_rgba(0,0,0,0.5)]
               dark:shadow-[color:--theme-100]rounded-2xl overflow-hidden md:flex-row">
-              <div className="p-[2rem] lg:p-[3rem] w-[100%] flex bg-theme-light-50 dark:bg-theme-dark-50">
+              <div
+                className="p-[2rem] lg:p-[3rem] w-[100%] rounded-lg
+               flex bg-theme-light-50 dark:bg-theme-dark-50">
                 <Image
                   alt="project image"
                   height={400}

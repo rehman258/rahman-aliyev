@@ -33,7 +33,7 @@
   "EXPERIENCE": {
     "title": "Təcrübə",
     "education": "Təhsil",
-    "present": "İndiki",
+    "present": "İndi",
     "desc": "Peşəkar yolum təsirli rollar və layihələr silsiləsi ilə yadda qalıb.",
     "profession": "Frontend developer",
     "profession_little": "Kiçik Frontend developer",
@@ -89,7 +89,8 @@
     "title": "Layihələr",
     "desc": "Yaratdığım diqqətəlayiq layihələrdən bəziləri:",
     "portfolio": "Portfolio",
-    "project1_desc": "Peşəkar stilist üçün xidmətlərini, portfelini və rezervasiya imkanlarını təqdim edən müasir və adaptiv vebsayt. Təmiz interfeys, yüksək performans və SEO-dostu quruluşla hazırlanmışdır."
+    "project1_desc": "Peşəkar stilist üçün xidmətlərini, portfelini və rezervasiya imkanlarını təqdim edən müasir və adaptiv vebsayt. Təmiz interfeys, yüksək performans və SEO-dostu quruluşla hazırlanmışdır.",
+    "project2_desc": "Peşəkar gömrük rəsmiləşdirilməsi xidmətləri təqdim edən müasir və adaptiv vebsayt. Təmiz interfeys və yüksək performansla hazırlanmışdır."
   },
   "CONTACT": {
     "title": "Əlaqə saxlayın",
