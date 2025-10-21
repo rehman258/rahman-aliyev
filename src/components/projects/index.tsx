@@ -34,7 +34,7 @@ export default function Projects() {
             <li
               key={projectItem.title}
               className="flex flex-col shadow-[0px_0px_22px_-8px_rgba(0,0,0,0.5)]
-              dark:shadow-[color:--theme-100]rounded-2xl overflow-hidden md:flex-row">
+              dark:shadow-[color:--theme-100] rounded-2xl overflow-hidden md:flex-row">
               <div
                 className="p-[2rem] lg:p-[3rem] w-[100%] rounded-lg
                flex bg-theme-light-50 dark:bg-theme-dark-50">

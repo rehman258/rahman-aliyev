@@ -90,9 +90,8 @@ export default function Experience() {
               key={experienceItem.date}
               className="experience-list__item w-[100%] flex flex-col flex justify-between
             bg-theme-light-100 dark:bg-theme-dark-100 p-[2rem] rounded-md 
-            shadow-[0px_0px_22px_-8px_rgba(0,0,0,0.5)]
-            sm:max-w-[350px]
-            md:flex-row md:max-w-[1000px]
+            shadow-[0px_0px_22px_-8px_rgba(0,0,0,0.5)] dark:shadow-[color:--theme-100]
+            sm:max-w-[350px] md:flex-row md:max-w-[1000px]
             ">
               {
                 experienceItem.img.includes("/") ?
@@ -104,7 +103,9 @@ export default function Experience() {
                       width={125}
                     />
                   </a>
-                  : <h4 className="font-bold w-[150px]">{experienceItem.img}</h4>
+                  : <h4 className="font-bold w-[150px] text-theme-dark-100 dark:text-theme-light-100">
+                    {experienceItem.img}
+                  </h4>
               }
               <div className="job-details w-[100%] md:w-[550px]">
                 <h3

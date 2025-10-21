@@ -68,7 +68,7 @@ export default function Sidebar({ isSidebarOpen,setIsSidebarOpen }:
                 key={navItem.text} 
                 className="">
                 <a
-                  className="block body-2-all-screen-medium cursor-pointer py-[10px] "
+                  className="block  cursor-pointer text-theme-dark-100 py-[10px] "
                   href={`#${navItem.path}`}>
                   {navItem.text}
                 </a>
