@@ -8,10 +8,11 @@ export default function Projects() {
   const projectsT = useTranslations("PROJECTS");
   const projects = [
     {
-      img:"/example-project.svg",
-      title: "Fiskil",
+      img:"/projectImages/pc.png",
+      title: "Stylist Colorist",
       desc:projectsT("project1_desc"),
-      techs:["React"],
+      path:"https://www.pervincebrayilova.com/",
+      techs:["HTML", "CSS", "Javascript"],
     }
   ];
   return (
@@ -31,7 +32,7 @@ export default function Projects() {
               <div className="p-[2rem] lg:p-[3rem] w-[100%] flex bg-theme-light-50 dark:bg-theme-dark-50">
                 <Image
                   alt="project image"
-                  height={384}
+                  height={400}
                   src={projectItem.img}
                   width={480}
                 />
@@ -47,7 +48,7 @@ export default function Projects() {
                 <p className="project-item__desc text-theme-light-600 dark:text-theme-dark-600">
                   {projectItem.desc}
                 </p>
-                <ul className="project-item__used-tech flex flex-wrap">
+                <ul className="project-item__used-tech flex flex-wrap gap-[10px]">
                   {
                     projectItem.techs.map((techItem)=>(
 
@@ -60,7 +61,7 @@ export default function Projects() {
                     ))
                   }
                 </ul>
-                <a href="#">
+                <a href={projectItem.path}>
                   <Image
                     alt="open project icon"
                     height={24}

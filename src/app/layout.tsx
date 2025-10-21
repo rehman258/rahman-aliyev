@@ -19,7 +19,8 @@ export const metadata: Metadata = {
   title: "Rahman Aliyev - Frontend Developer",
   description: `Frontend developer with 5+ years building scalable web applications.
   Specialized in React, Next.js, TypeScript.`,
-  keywords: ["Frontend Developer", "React", "Next.js", "TypeScript", "Baku", "Azerbaijan", "Deutschland"],
+  keywords: ["Frontend Developer", "Rahman Aliyev", "Web developer",
+    "React", "Next.js", "TypeScript", "Baku", "Azerbaijan", "Deutschland"],
   authors: [{ name: "Rahman Aliyev" }],
   creator: "Rahman Aliyev",
   publisher: "Rahman Aliyev",
